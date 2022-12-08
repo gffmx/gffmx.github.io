@@ -1,0 +1,137 @@
+body {
+  background-image: linear-gradient(#FFFF8A,#FF3A75);
+     }
+
+p, ul, li,	#directions, ol {
+		font-family: "brandon-grotesque", Garamond, serif;
+    font-size: 18px
+    }
+#raspberrylist, ol
+    {list-style-image: url('raspberryII.png');
+    }
+h1 
+    {
+    color: #ff1a75;
+    text-decoration: none;
+    font-family: "fatfrank";
+    font-size: 45px;
+    }
+h2, a	
+    {
+		color: #B2094C;
+    text-decoration: none;
+    font-family: "tenso";
+    font-size: x-large;
+    }
+h3 {
+    font-family: "brandon-grotesque", Helvetica, sans-serif;
+    color: black;
+    margin: 20px auto 5px auto;
+    }
+h4
+    {
+    text-decoration: none;
+    font-family: "brandon-grotesque", Helvetica, sans-serif;
+    font-size: large;
+    color: #000000;
+    }
+footer, a, #bottom {
+    text-decoration: none;
+    font-family: "tenso";
+    font-size: medium;
+    font-color: #FFFFFF;
+    font-size: small;
+    width: 600px;
+    height: 100px;
+    }
+#orange-text
+    {
+    font-style: bold;
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: small;
+    margin: 2px auto 5px auto;
+    }
+#main-photo
+    {
+    height: 370px;
+    width: 555px;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #FFA040;
+    margin: 2px;
+    }
+#main-photo:hover
+    {
+    opacity: 0.8;
+    color-filter:#FFA040;
+    }
+
+table {
+  border-width:3px;
+  border-color:#FFA040;
+  background-color:#FFFFFF;
+  color: #000000;
+  text-align: left;
+  font-family: "brandon-grotesque", “Hoefler Text”, Garamond, serif;
+  font-size: medium;
+  width:325px
+    }
+#review1 
+      {
+  font-family: "brandon-grotesque", “Hoefler Text”, Garamond, serif;
+  font-size: medium;
+  font-color: #000000;
+  width:250px;
+  height: auto;
+  padding:5px;
+  border-style: dotted;
+  border-color: #FFFFFF;
+  margin-left: auto;
+  background-color:#FFFF92;
+  float: left;
+      }
+#review2, #review3
+      {
+  font-family: "brandon-grotesque", “Hoefler Text”, Garamond, serif;
+  font-size: medium;
+  font-color: #000000;
+  width:250px;
+  height: auto;
+  padding:5px;
+  border-style: dotted;
+  border-color: #FFFFFF;
+  margin-left: 15px;
+  background-color:#FFFF92;
+  float: left;
+      }
+#nutrition-table
+      {
+  clear:left;
+  clear: top;
+  margin-top: auto;
+      }
+th, td {
+  padding-top:2px;
+  padding-bottom:2px;
+    }
+
+body {padding-left: 50px;}
+
+.pink
+    {
+    outline-color: #FFFFFF;
+    }
+
+th:hover, td:hover { color:#0C7659;}
+/*
+darker teal: #27C398
+lighter teal: #66CDB1
+fuschia: #ff1a75
+light fuschia: #FF3A75;
+light yellow: #FFFF8A;
+light light yellow: #FFFF92;
+light orange: #FFA040;
+alt background: http://colorfulgradients.tumblr.com/image/138470351102 
+background-image:url("images/gradient.png");
+class = . id = #
+*/

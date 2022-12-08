@@ -1,0 +1,138 @@
+@import 'h5bp/h5bp-head.css';
+@import 'h5bp/normalize.css';
+@import 'h5bp/h5bp-tail.css';
+
+
+p{ line-height: 1em; }
+h1, h2, h3, h4{
+    color: red;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 0 0 .5em 0;
+}
+h1{ font-size: 1.414em; }
+h2{ font-size: 1.999em; 
+	color: #F42723;}
+h3{ font-size: 1.414em;
+	color: #F42723;
+	padding-top: 10px;
+	}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+	a:hover,
+	a:active{ text-decoration: underline; }
+
+
+body{
+    font-family: Lora; 
+    font-size: 1em; 
+    line-height: 1.2em; 
+    margin: auto; 
+}
+
+.wrapper{
+	background-image: url("../img/mainpage.png");
+	background-position: center;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.learn{
+	padding: 20px;
+	color: white;
+	display: inline-block;
+	background-color: #A81B18;
+	box-shadow: 0px 1px 1px #666;
+}
+
+.learn a{
+	display: inline-block;
+}
+
+.metro{
+	background-image: url("../img/metro.jpg");
+	background-position: center;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.captop{
+	background-image: url("../img/captop.jpg");
+	background-position: center;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.washmon{
+	background-image: url("../img/washmon.jpg");
+	background-position: top;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#logo{
+	width: 35%;
+	margin-top: 5px;
+	font-family: Lora;
+	display: inline-block;
+}
+
+#nav{
+	width: 60%;
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+	#nav ul{}
+		#nav ul li{
+			display: inline-block;
+			height: 62px;
+		}
+			#nav ul li a{
+				padding: 20px;
+				background: #A81B18;
+				color: white;
+			}
+			#nav ul li a:hover{
+				background-color: #F42723;
+				box-shadow: 0px 1px 1px #666;
+			}
+			#nav ul li a:active{ background-color: #F42723; }
+
+
+#content{
+	margin: auto;
+	width: 1000px;
+	background: white;
+	padding: 20px;
+	padding-bottom: 900px;
+	clear: both;
+}
+
+.contactstyle{
+	font-size: 1.414em;
+
+}
+#footer{
+	border-bottom: 1px #ccc solid;
+	margin-bottom: 10px;
+	padding-top: 745px;
+}
+	#footer p{
+		text-align: right;
+		text-transform: uppercase;
+		font-size: 80%;
+		color: #2B2A29;
+	}
+
+#content,
+ul li a{ box-shadow: 0px 1px 1px #999; }

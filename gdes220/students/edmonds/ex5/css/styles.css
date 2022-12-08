@@ -1,0 +1,46 @@
+body {
+  color:#604848;
+  font-family: Tahoma, Geneva, sans-serif;
+  background-color:#F0F0D8;
+  background-image:"css/concrete_seamless.png";
+  width:500px;
+  margin:auto;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+h1{
+  text-transform:uppercase;
+  letter-spacing:1px;
+  text-align:center;
+}
+
+h2,h3 {
+  color:#607848;
+  text-align:center;
+}
+
+a:link {
+  color:#789048;
+}
+
+a:visited {
+  color:#607848;
+}
+
+a:hover {
+  color:#C0D860;
+}
+
+a:active {
+  color:yellow;
+}
+
+table,th,td{
+  border-collapse:collapse;
+  border:1px solid;
+  padding:20px;
+  background:#ffffff;
+  width:500px;
+  margin:auto;
+}

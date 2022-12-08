@@ -1,0 +1,241 @@
+
+body{
+	background-color: #f6f4e7
+}
+
+.main{
+	position: relative;
+	width: 600px;
+	margin: 0 auto;
+	padding: 100px 0px 100px 50px;
+	line-height: 30px;
+}
+
+.open{
+	color: #007169;
+	font-size: 31.6pt;
+	font-family: 'Slabo 13px', serif;
+	padding-bottom: 10px;
+}
+
+.01{
+	position:absolute;
+	margin:0 auto;
+}
+
+.cultureintro{
+    position: absolute;
+    padding-top: 500px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.culture{
+	position: relative;
+	margin: 0 auto;
+	width: 500px;
+	padding-left: 50px;
+	line-height: 30px;
+	font-family: 'Slabo 13px', serif;
+	color: #323232;
+}
+
+.vert{
+	-webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    color: #323232;
+    font-size: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+.num{
+	color: #007169;
+	float: left;	
+	font-size: 115px;
+	width: 100px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.box{
+	width:100px;
+	height:25px;
+	background-color: #e4533e;
+	display: none;
+	margin-top: 200px;
+}
+#as{
+	font-size: 18pt;
+	font-family: 'Slabo 13px', serif;
+	color: #323232;
+}
+
+.mz{
+	width: 100%;
+}
+
+.shop{
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+.content{
+	width: 1100px;
+	margin: auto;
+	display: block;
+	color:#323232;
+}
+
+.tmusic{
+	margin: 0 auto;
+	font-size: 50px;
+	padding-right: 100px;
+	font-family: 'Oswald', sans-serif;
+	padding-bottom: 35px;
+	padding-top: 25px;
+}
+
+.makonde{
+	display: inline-block;
+	width:500px;
+	padding-top: 25px;
+	vertical-align: top;
+	margin: 0 auto;
+	padding-left: 50px;
+}
+
+.music{
+	padding-bottom: 25px;
+	display:inline-block;
+	vertical-align: top;
+	margin: 0 auto;
+	width: 500px;
+	font-family: 'Slabo 13px', serif;
+	font-size: 12pt;
+	padding-left: 50px;
+	padding-right: 50px;
+	line-height:30px;
+}
+
+.art{
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+.cultureimg{
+	width:100%;
+	position:relative;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.title{
+	margin: 0 auto;
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	padding-bottom: 35px;
+	padding-top: 25px;
+}
+
+.food{
+	display:inline-block;
+	vertical-align: top;
+	margin: 0 auto;
+	width: 500px;
+	font-family: 'Slabo 13px', serif;
+	font-size: 12pt;
+	padding-right: 50px;
+	line-height:30px;
+}
+
+.spices{
+	padding-top: 20px;
+}
+
+.foodimg{
+	display:inline-block;
+	vertical-align: top;
+	margin: 0 auto;
+	width: 500px;
+}
+
+.ent{
+	margin: 0 auto;
+	font-size: 50px;
+	padding-right: 100px;
+	font-family: 'Oswald', sans-serif;
+	padding-bottom: 35px;
+	padding-top: 25px;
+}
+.paper{
+	display:inline-block;
+	vertical-align: top;
+	margin: 0 auto;
+	width: 500px;
+}
+
+.media{
+	display:inline-block;
+	vertical-align: top;
+	margin: 0 auto;
+	width: 500px;
+	font-family: 'Slabo 13px', serif;
+	font-size: 12pt;
+	padding-right: 50px;
+	line-height:30px;
+}
+.moz{
+	padding-bottom: 24px;
+}
+
+.news{
+	padding-top: 20px;
+}
+
+.weather{
+	width: 100%;
+	height: 400px;
+	padding-bottom: 50px;
+	padding-top: 100px;
+}
+
+.geo{
+	position: relative;
+	margin: 0 auto;
+	width: 500px;
+	padding-left: 50px;
+	line-height: 30px;
+	font-family: 'Slabo 13px', serif;
+	color: #323232;
+	padding-bottom: 50px;
+}
+
+.topo{
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.seperate{
+	width:100%;
+	height: 20px;
+	background-color: #e4533e;
+}
+
+.dugong{
+	display: inline-block;
+	width:400px;
+	padding-top: 25px;
+	vertical-align: top;
+	margin: 0 auto;
+	padding-left: 50px;
+}
+}
+h1, h2, h3{
+	font-family: 'Oswald', sans-serif;
+}
+

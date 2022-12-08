@@ -1,0 +1,131 @@
+@import 'h5bp/h5bp-head.css';
+@import 'h5bp/normalize.css';
+@import 'h5bp/h5bp-tail.css';
+
+
+@-webkit-keyframes greenPulse {
+  from { background-color: #3fb34f; -webkit-box-shadow: 0 0 9px #f3ebcb; }
+  50% { background-color: #52a45e; -webkit-box-shadow: 0 0 18px #52a45e; }
+  to { background-color: #3fb34f; -webkit-box-shadow: 0 0 9px #f3ebcb; }
+}
+
+.glow {
+  -webkit-animation-name: greenPulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.buton{
+    padding-left: 550px;
+    padding-top: 900px;
+
+}
+
+.mainimg{
+	width:100%;
+	position: absolute;
+    z-index: -1;
+}
+
+body{
+	background-color: #f4ebcb;
+}
+
+.int{
+    background-color: #f6f2e7;
+}
+
+.cov{
+    width: 100%;
+    padding-bottom: 150px;
+}
+
+.logo{
+    float: right;
+    padding-right: 50px;
+}
+
+.welcom{
+     text-align: center;
+     width:100%;
+}
+
+.intro
+{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 36pt;
+    padding-bottom: 50px;
+}
+
+.wel{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24pt;
+    padding-left: 300px;
+    padding-right: 300px;
+    position:relative;
+
+}
+
+.snow{
+    position: absolute;
+    z-index: -1;
+    padding-left: 300px;
+    padding-top: 50px;
+}
+
+.stats{
+    width:100%;
+    padding-top: 600px;
+}
+
+.safe{
+    width: 100%;
+    padding-top: 600px;
+    padding-bottom: 300px;
+}
+
+.sec{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 36pt;
+    padding-bottom: 25px;
+}
+
+.cont{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-top: 25px;
+}
+
+.taun{
+    position: absolute;
+    z-index: -1;
+}
+
+.button{
+    margin: auto;
+    position: absolute;
+    padding-right: 500px;
+    padding-left:  500px;
+    padding-bottom: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

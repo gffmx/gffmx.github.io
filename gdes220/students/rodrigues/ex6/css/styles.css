@@ -1,0 +1,215 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* INSTRUCTIONS
+   Make each container look like the provided reference image by changing 
+   position, float, clear, and display properties in CSS.
+  
+   DO NOT ALTER THE HTML. Work in this CSS file only.
+/*
+
+
+/* * * * * * */
+/* PROBLEM 1 */
+/* * * * * * */
+
+#one{  /*this is the gray container*/
+	position:relative;
+}
+
+#one .red-box{
+	width:100px;
+	height:100px;
+}
+
+#one .black-box{
+	width:100px;
+	height:100px;
+	float:right;
+	position: relative;
+	left:50px;
+	bottom:150px;
+
+}
+
+#one .blue-box{
+	width:100px;
+	height:100px;
+}
+
+/* * * * * * */
+/* PROBLEM 2 */
+/* * * * * * */
+
+#two{
+	}
+
+#two .red-box{
+	width:100px;
+	height:100px;
+	float:right;
+	
+}
+
+#two .black-box{
+	width:100px;
+	height:100px;
+	float:right;
+	
+}
+
+#two .blue-box{
+	width:100px;
+	height:100px;
+	position:relative;
+	left:200px;
+}
+
+/* * * * * * */
+/* PROBLEM 3 */
+/* * * * * * */
+
+#three{
+	
+}
+
+#three .red-box{
+	width:100px;
+	height:100px;
+}
+
+#three .black-box{
+	width:100px;
+	height:100px;
+	position:relative;
+	left:50px;
+	bottom:50px;
+}
+
+#three .blue-box{
+	width:100px;
+	height:100px;
+}
+
+
+/* * * * * * */
+/* PROBLEM 4 */
+/* * * * * * */
+
+#four{
+	position:relative;
+}
+
+#four .red-box{
+	width:100px;
+	height:100px;
+	
+
+}
+
+#four .black-box{
+	width:100px;
+	height:100px;
+	position:absolute;
+	bottom:50px;
+	left:450px;
+	
+}
+
+#four .blue-box{
+	width:100px;
+	height:100px;
+	position:absolute;
+	left:150px;
+	bottom:50px;
+}
+
+
+/* * * * * * */
+/* PROBLEM 5 */
+/* * * * * * */
+
+#five{
+	position:relative;
+}
+
+#five .red-box{
+	width:100px;
+	height:100px;
+	
+}
+
+#five .black-box{
+	width:100px;
+	height:100px;
+	position:absolute;
+	left:150px;
+	bottom:150px;
+}
+
+#five .blue-box{
+	width:100px;
+	height:100px;
+	
+}
+
+
+/* * * * * * */
+/* PROBLEM 6 */
+/* * * * * * */
+
+#six{
+	
+}
+
+#six .red-box{
+	width:100px;
+	height:100px;
+	display:none;
+}
+
+#six .black-box{
+	width:100px;
+	height:100px;
+}
+
+#six .blue-box{
+	width:100px;
+	height:100px;
+	display:none;
+}
+
+
+
+
+
+
+
+
+/* GLOBAL STYLES (DON'T EDIT) */
+
+.container{
+	width:500px;
+	margin:0 auto 50px auto; /*centers and adds spacing between containers*/
+	padding:50px;
+	background-color:#DDD;
+	/*text appearance properties*/
+	color:#FFF;
+	font-size:48px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-align:center;
+}
+
+.red-box{
+	background-color:#CC0000;
+}
+
+.black-box{
+	background-color:#000000;
+}
+
+.blue-box{
+	background-color:#00CCFF;
+}
+

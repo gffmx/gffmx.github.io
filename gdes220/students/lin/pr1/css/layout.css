@@ -1,0 +1,310 @@
+@import 'h5bp/h5bp-head.css';
+@import 'h5bp/normalize.css';
+@import 'h5bp/h5bp-tail.css';
+@font-face {
+	font-family: Cubano Regular;
+	src: url('../Cubano-Regular.otf');
+}
+
+
+.container {
+	margin: 50px auto;
+	width: 800px;
+}
+
+header {
+	width:100%;
+	margin: 0 auto;
+}
+
+a:link {
+	color:#fff;
+	font-weight:500;
+}
+
+a:visited {
+	color:#fff;
+	font-weight:500;
+	font-style:italic;
+
+}
+
+a:hover {
+	color:#cc9933;
+	font-weight:500;
+	font-style:italic;
+	text-decoration: none;
+}
+
+a:active {
+	color:#a70000;
+	font-weight:500;
+	font-style:italic;
+}
+
+h2 a {
+	font-weight:normal;
+}
+
+h3 {
+	font-weight:normal;
+}
+
+h2 a:hover {
+	color:#fff;
+	font-style:normal;
+}
+
+h2 a:active {
+	color:#fff;
+	font-style:normal;
+}
+
+#nav {
+	width: 500px;
+	margin: 0px auto;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight:500;
+}
+
+h1 {
+	font-family: Cubano Regular;
+	font-size: 200px;
+	font-weight: normal;
+	line-height: 200px;
+	text-align:right;
+	margin: 50px 0 0 100px;
+}
+
+header h4 {
+	font-size: 100px;
+	line-height: 100px;
+	margin: 0;
+	font-style: italic;
+	text-align: right;
+	position: relative;
+	bottom: 100px;
+}
+
+#WikiCap {
+	font-size: 12px;
+	width: 200px;
+	font-weight:300;
+	
+}
+
+#introduction {
+	padding: 0 100px 100px;
+	font-weight:200;
+}
+
+h2, h3, h4 {
+	text-transform: uppercase;
+}
+
+#said {
+	float:left;
+	margin-right: 50px;	
+}
+
+#orilink a {
+	clear: left;
+	display: block;
+	position: relative;
+	left: 450px;
+}
+
+#exclusion h3 {
+	text-align: center;
+	margin-top:50px;
+	margin-bottom:0px;
+}
+
+#yellow {
+	display:inline-block;
+	vertical-align: top;
+	width: 350px;
+	padding: 0px 15px;
+}
+
+#foreigner {
+	display:inline-block;
+	width: 350px;
+	padding: 0px 15px;
+}
+
+.button {
+	border: 5px solid #cc9933;
+	width: 200px;
+	margin: 50px auto 0;
+	padding: 10px 0px;
+	text-align: center;
+}
+
+#button {
+	text-decoration: none;
+}
+
+.button span {
+	font-size: 12px;
+	font-weight:600;
+	color: #cc9933;
+	text-transform: uppercase;
+}
+
+#modelminority {
+	margin:200px 0px;
+	position:relative;
+	overflow:visible;
+	}
+
+.bgimg {
+	position:absolute;
+	bottom: 2000px;
+	background-image: url(../img/class.jpg);
+	width:2000px;
+	height: 500px;
+	
+}
+
+#modelminority h2 {
+	transform: rotate(-90deg);
+	transform-origin: 0 0;
+	position:relative;
+	top:400px;
+
+}
+
+#modelminority p {
+	padding: 0 300px 0 50px;
+}
+
+blockquote {
+	margin-bottom: 100px;
+	font-family: Cubano Regular;
+}
+
+blockquote #one {
+	font-size:60px;
+	line-height:70px;
+}
+
+blockquote #two {
+	font-size:100px;
+	line-height:115px;
+}
+
+blockquote #three {
+	font-size:80px;
+	line-height:90px;
+}
+
+blockquote #four {
+	font-size:65px;
+	line-height:70px;
+}
+
+blockquote #five {
+	font-size:50px;
+	line-height:70px;
+}
+
+blockquote #six {
+	font-size:120px;
+	line-height: 120px;
+}
+
+blockquote #seven {
+	font-size:160px;
+	line-height:160px;
+}
+
+blockquote #eight {
+	font-size: 70px;
+	line-height:80px;
+}
+
+#archetypes {
+	margin-bottom:100px;
+}
+
+#fu, #charlie {
+	/*padding-left:300px;*/
+	display: inline-block;
+	width:400px;
+	vertical-align: top;
+}
+
+#fupic, #charliepic {
+	display: inline-block;
+	width: 250px;
+	height: 375px;
+	padding: 25px 10px 25px 0px;
+	vertical-align: top;
+}
+
+#men h2, #women h2 {
+	font-size: 36px;
+	/*padding-left: px;*/
+}
+
+#malepics {
+	display: block;
+	float: right;
+	width: 250px;
+}
+
+.menbox {
+	display:inline-block;
+	width:250px;
+	vertical-align: top;
+	margin-right:20px;
+}
+
+#wider {
+	width: 500px;
+	margin-bottom:100px;
+
+}
+
+#women {
+	margin-bottom:100px;
+}
+
+.ladybox {
+	width:400px;
+}
+
+footer .button {
+	display:inline-block;
+	margin: 0px 20px;
+}
+
+footer p {
+	margin: 50px 0px 5px;
+	font-size:10px;
+}
+
+
+/**Style**/
+
+body {
+
+
+background:
+url(../img/mmm.png) 0px 2500px no-repeat,
+url(../img/anna.png) 0px 6400px no-repeat,
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 10px) 0 0 fixed,
+radial-gradient(white, rgba(255,255,255,.1) 1px, transparent 5px) 40px 60px fixed,
+radial-gradient(white, rgba(255,255,255,.05) 2px, transparent 4px) 130px 270px fixed,
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 3px) 70px 100px fixed,
+black;
+
+background-size: contain, contain, 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+
+
+
+	color:#ffffff;
+	font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,93 @@
+
+body{
+	background-color: #f6f4e7
+}
+
+.main{
+	position: relative;
+	width: 600px;
+	margin: 0 auto;
+	padding: 100px 0px 100px 50px
+}
+
+.open{
+	color: #007169;
+	font-size: 30pt;
+	font-family: 'Slabo 13px', serif;
+
+}
+
+.01{
+	position:absolute;
+	margin:0 auto;
+}
+
+.culture{
+	position: relative;
+	margin: 0 auto;
+	width: 500px;
+	padding-left: 50px;
+
+}
+
+.vert{
+	font-size: 
+}
+
+#as{
+	font-size: 18pt;
+	font-family: 'Slabo 13px', serif;
+}
+
+.mz{
+	width: 100%;
+}
+
+.shop{
+	width: 100%;
+	padding-bottom: 50px;
+
+}
+
+.music{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.art{
+	padding-bottom: 24px;
+}
+.cultureimg{
+	width:100%;
+	position:relative;
+	padding-top: 100px;
+}
+
+.title{
+	margin: 0 auto;
+	font-size: 50px;
+	padding-left: 50px;
+	font-family: 'Oswald', sans-serif;
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+.food{
+	position: absolute;
+	margin: 0 auto;
+	width: 500px;
+	font-family: 'Slabo 13px', serif;
+	font-size: 18pt;
+	padding-left: 50px;
+}
+
+.foodimg{
+	float: right;
+	margin: 0 auto;
+	width: 700px;
+}
+
+h1, h2, h3{
+	font-family: 'Oswald', sans-serif;
+}
+

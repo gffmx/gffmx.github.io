@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+#button2{ background-image:url(../buttons/button.png);
+	padding-top:50px;
+	padding-right:120px;
+	padding-bottom:50px;
+	padding-left:80px;
+}
+#beep{
+	background-color: #f7ffff;
+	visibility: hidden;
+}
+#waves{visibility: hidden;}
+#introgif {
+margin-left: 200px;
+padding-left:80px;
+background-color:#f7ffff;
+}
+#time {background-color:#f7ffff;
+}
+#embargo{margin-top:20px;
+}

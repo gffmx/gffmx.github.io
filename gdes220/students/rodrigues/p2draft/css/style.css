@@ -1,0 +1,431 @@
+@import 'h5bp/h5bp-head.css';
+@import 'h5bp/normalize.css';
+@import 'h5bp/h5bp-tail.css';
+
+
+@-webkit-keyframes bluePulse {
+  from { background-color: #454545; -webkit-box-shadow: 0 0 9px #f3ebcb; }
+  50% { background-color: #71ede0; -webkit-box-shadow: 0 0 18px #2d8e84; }
+  to { background-color: #454545; -webkit-box-shadow: 0 0 9px #f3ebcb; }
+}
+
+@-webkit-keyframes greenPulse {
+  from { background-color: #454545; -webkit-box-shadow: 0 0 9px #f3ebcb; }
+  50% { background-color: #52a45e; -webkit-box-shadow: 0 0 18px #52a45e; }
+  to { background-color: #454545; -webkit-box-shadow: 0 0 9px #f3ebcb; }
+}
+
+@-webkit-keyframes orangePulse {
+  from { background-color: #454545; -webkit-box-shadow: 0 0 9px #f3ebcb; }
+  50% { background-color: #ffb709; -webkit-box-shadow: 0 0 18px #ffab47; }
+  to { background-color: #454545; -webkit-box-shadow: 0 0 9px #f3ebcb; }
+}
+
+.glow{
+  -webkit-animation-name: bluePulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+
+    margin-left: 350px;
+    margin-top: 510px;
+    width: 20px;
+    background-color: #454545;
+    height: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: +1;
+}
+
+.glow2{
+  -webkit-animation-name: greenPulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+
+    margin-left: 520px;
+    margin-top: 310px;
+    width: 20px;
+    background-color: #454545;
+    height: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: +1;
+}
+
+.glow3{
+  -webkit-animation-name: orangePulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+
+    margin-left: 770px;
+    margin-top: 170px;
+    width: 20px;
+    background-color: #454545;
+    height: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: +1;
+}
+
+.mainimg{
+	width: 998px;
+  padding-left: 150px;
+  position: absolute;
+  margin: auto;
+	z-index: -1;
+}
+
+body{
+	background-color: #f4ebcb;
+}
+
+.int{
+    background-color: #f6f2e7;
+}
+
+.cov{
+    width: 100%;
+    padding-bottom: 150px;
+}
+
+.logo{
+    float: right;
+    padding-right: 50px;
+}
+
+.welcom{
+     text-align: center;
+     width:100%;
+}
+
+.intro
+{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 36pt;
+    padding-bottom: 50px;
+}
+
+.wel{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24pt;
+    padding-left: 300px;
+    padding-right: 300px;
+    position:relative;
+
+}
+
+.snow{
+    position: absolute;
+    z-index: -1;
+    padding-left: 300px;
+    padding-top: 50px;
+}
+
+.stats{
+    width:100%;
+    padding-top: 600px;
+}
+
+.safe{
+    width: 100%;
+    padding-top: 600px;
+    padding-bottom: 300px;
+}
+
+.sec{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 36pt;
+    padding-bottom: 25px;
+}
+
+.cont{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-top: 25px;
+}
+
+.taun{
+    position: absolute;
+    z-index: -1;
+}
+
+.button{
+    margin: auto;
+    position: absolute;
+    padding-right: 500px;
+    padding-left:  500px;
+    padding-bottom: 400px;
+}
+
+.flex-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+* {
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+}
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+.outer-menu {
+  position: fixed;
+  top: 25px;
+  left: 0;
+  z-index: 1;
+}
+.outer-menu .checkbox-toggle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  opacity: 0;
+}
+.outer-menu .checkbox-toggle:checked + .hamburger > div {
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+.outer-menu .checkbox-toggle:checked + .hamburger > div:before,
+.outer-menu .checkbox-toggle:checked + .hamburger > div:after {
+  top: 0;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+.outer-menu .checkbox-toggle:checked + .hamburger > div:after {
+  opacity: 0;
+}
+.outer-menu .checkbox-toggle:checked ~ .menu {
+  pointer-events: auto;
+  visibility: visible;
+}
+.outer-menu .checkbox-toggle:checked ~ .menu > div {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition-duration: .75s;
+          transition-duration: .75s;
+}
+.outer-menu .checkbox-toggle:checked ~ .menu > div > div {
+  opacity: 1;
+  -webkit-transition: opacity 0.4s ease 0.4s;
+  transition: opacity 0.4s ease 0.4s;
+}
+
+.outer-menu .checkbox-toggle:checked:hover + .hamburger > div {
+  -webkit-transform: rotate(225deg);
+          transform: rotate(225deg);
+}
+.outer-menu .hamburger {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  padding: .5em 1em;
+  background: #ffdd3e;
+  border-radius: 0 0.12em 0.12em 0;
+  cursor: pointer;
+  -webkit-transition: box-shadow 0.4s ease;
+  transition: box-shadow 0.4s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.outer-menu .hamburger > div {
+  position: relative;
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+      -ms-flex: none;
+          flex: none;
+  width: 100%;
+  height: 2px;
+  background: #FEFEFE;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.outer-menu .hamburger > div:before,
+.outer-menu .hamburger > div:after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: inherit;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.outer-menu .hamburger > div:after {
+  top: 10px;
+}
+.outer-menu .menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  visibility: hidden;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  outline: 1px solid transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.outer-menu .menu > div {
+  width: 200vw;
+  height: 200vw;
+  color: #FEFEFE;
+  background: #ffdd3e;
+  border-radius: 50%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+      -ms-flex: none;
+          flex: none;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.outer-menu .menu > div > div {
+  text-align: center;
+  max-width: 90vw;
+  max-height: 100vh;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s ease;
+  transition: opacity 0.4s ease;
+  overflow-y: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+      -ms-flex: none;
+          flex: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.outer-menu .menu > div > div > ul {
+  list-style: none;
+  padding: 0 1em;
+  margin: 0;
+  display: block;
+  max-height: 100vh;
+}
+.outer-menu .menu > div > div > ul > li {
+  padding: 0;
+  margin: 1em;
+  font-size: 72px;
+  display: block;
+}
+.outer-menu .menu > div > div > ul > li > a {
+  position: relative;
+  display: inline;
+  cursor: pointer;
+  -webkit-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+}
+.outer-menu .menu > div > div > ul > li > a:hover {
+  color: #eeeeee;
+}
+.outer-menu .menu > div > div > ul > li > a:hover:after {
+  width: 100%;
+}
+.outer-menu .menu > div > div > ul > li > a:after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  bottom: -0.15em;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #e5e5e5;
+  -webkit-transition: width 0.4s ease;
+  transition: width 0.4s ease;
+}
+

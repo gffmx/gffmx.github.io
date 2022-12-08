@@ -1,0 +1,26 @@
+@import 'h5bp/h5bp-head.css';
+@import 'h5bp/normalize.css';
+@import 'h5bp/h5bp-tail.css';
+body{background-color:#f7ffff;
+}
+.question{position:relative;
+align-self:inherit;
+padding:250px,500px,110px,20px;
+}
+.what{
+	float: inherit;
+	padding: 250px, 200px, 100px, 20px;
+	widith: 100px;
+	font-size: 18px;
+	text-align: left;
+	font-weight: 300;
+}
+.paragraph_two{float: inherit;
+	padding: 40px, 100px, 100px, 10px;
+	widith: 50px;
+	font-size: 18px;
+	text-align: left ;
+	font-weight: 300;
+}
+.solvingthemystery{
+	

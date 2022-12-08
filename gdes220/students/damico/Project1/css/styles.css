@@ -1,0 +1,142 @@
+
+
+@import 'h5bp/h5bp-head.css';
+@import 'h5bp/normalize.css';
+@import 'h5bp/h5bp-tail.css';
+
+
+.top{ background: url('../img/gug.gif') center top no-repeat;
+background-size: 100%; 
+}
+
+.content {
+  margin:auto;
+  width: 1120px;
+
+}
+
+.design{
+  margin-left: 400px;
+  padding-top: 150px;
+}
+
+.design h1{
+  font-family: 'EB Garamond';
+  font-size: 60px;
+  line-height: 0px;
+  margin: 0px;
+  color: #6d7177;
+ 
+}
+
+.design h2{
+  font-family: 'EB Garamond';
+    font-size: 120px;
+      margin: 0px;
+      color: #6d7177;
+      
+
+}
+
+
+.mainpullquote {
+  width:600px;
+  height:100px;
+  background-color: #b4dbbf;
+  padding: 50px;
+  margin:  200px 0 100px;
+  color: #6d7177;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.header {
+  height: 800px;
+  width: 1120px;
+  margin: auto;
+ 
+}
+  
+
+.origins {
+  padding-top: 250px;
+  margin-left: 170px; 
+  font-family: 'EB Garamond';
+  color: #6d7177;
+  font-size:35px;
+  line-height: 0px;
+}
+
+.originswords {
+  font-family: 'Source Sans Pro', sans-serif;
+   margin-left: 400px;
+    height: 300px;
+    color: #6d7177;
+  }
+
+
+.analysis {
+  padding-top: 250px;
+  margin-left: 170px; 
+  font-family: 'EB Garamond';
+  color: #6d7177;
+  font-size:35px;
+  line-height: 0px;
+  
+  
+}
+
+.section1 {
+  width: 600px;
+  font-family: 'Source Sans Pro', sans-serif;
+   margin-left: 400px;
+   color: #6d7177;
+    
+  
+  
+}
+
+.pullquote2 {
+  font-size: 20px;
+  padding-top: 250px;
+  margin-left: 170px; 
+  font-family: 'EB Garamond';
+  color: #6d7177;
+  font-size:35px;
+  
+}
+
+.attributes {
+  padding-top: 250px;
+  font-family: 'EB Garamond';
+  color: #6d7177;
+  font-size:35px;
+  line-height: 0px;
+}
+
+.applications {
+  
+}
+
+.applicationstext {
+  
+}
+
+.stevejobs {
+  font-size: 50px;
+  width: 930px;
+  margin: auto;
+  padding: 300px;
+  color: #6d7177;
+}  
+ .lastquote {
+   background-color: #b4dbbf
+    }
+
+ .sj {
+      font-size:36px;
+  
+  
+  
+  
+}

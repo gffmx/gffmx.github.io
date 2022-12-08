@@ -1,0 +1,62 @@
+body#background {
+  background-image: url('tlcolor.png');
+    background-repeat: no-repeat;
+    background-attachment: static;
+    height: 4200px;
+}
+
+
+.founding {
+    position: absolute;
+    top: 57em;
+    left: 8em;
+    border:  10px solid #000000;  
+}
+
+.jag {
+    position: absolute;
+    top: 68em;
+    left: 53.2em;
+    border: 10px solid #000000;  
+}
+
+.calc {
+    position: absolute;
+    top: 105em;
+    left: 20.5em;
+    border: 7px solid #000000;  
+}
+
+.nike {
+    position: absolute;
+    top: 142em;
+    left: 20.5em;
+    border: 10px solid #000000;  
+}
+
+.computer {
+    position: absolute;
+    top: 163em;
+    left: 53.2em;
+    border: 10px solid #000000;  
+}
+
+.iphone {
+    position: absolute;
+    top: 202em;
+    left: 8em;
+    border:  10px solid #000000;
+    
+}
+
+.rebrand {
+    position: absolute;
+    top: 237em;
+    left: 53.2em;
+    border:  10px solid #000000;
+    
+}
+
+
+
+

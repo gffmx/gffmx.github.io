@@ -1,0 +1,92 @@
+@import 'h5bp/h5bp-head.css';
+@import 'h5bp/normalize.css';
+@import 'h5bp/h5bp-tail.css';
+
+/* 
+
+	Put typographic formatting in the typography.css file.
+	Page layout styles go in layout.css.
+
+	In production, do not use imports.
+	Instead, concatenante and minify files. 
+
+*/
+body{
+    
+    background-image: url("../img/snow_subtlepattern.png");
+    background-repeat: repeat;
+    padding: 400px;
+  }
+  .alltext{
+    margin: auto;
+    width: 1120px;
+  }
+
+  .mt {
+    width: 100%;
+  }
+
+.space{
+    width: 600px;
+    margin: auto;
+  }
+
+  .top-image {
+    width: 100%;
+    margin: auto;
+  }
+
+
+
+ 	 h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+	h2 {
+  font-family: 'Fira sans hair', sans-serif;
+}
+	h3 {
+  font-family: 'Raleway Thin', sans-serif;
+}
+
+P { font-family: 'open sans', sans-serif; 
+}
+
+(change link propreties)
+
+ a:link {
+    color: #191970;
+    text-decoration: none;
+}
+a:visited {
+    color: #00FFFF;
+    text-decoration: none;
+}
+a:hover {
+    color: #800080;
+    text-decoration: none;
+}
+a:active {
+    color: #DC143C;
+    text-decoration: none;
+}
+
+.skiier {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 3s linear infinite;
+    -moz-animation:spin 3s linear infinite;
+    animation:spin 3s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+(how to fix repeating snow background) 
+imput all wiki links 
+
+

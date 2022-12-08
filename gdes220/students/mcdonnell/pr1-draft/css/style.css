@@ -1,0 +1,158 @@
+@import 'h5bp/h5bp-head.css';
+@import 'h5bp/normalize.css';
+@import 'h5bp/h5bp-tail.css';
+
+/* 
+
+	Put typographic formatting in the typography.css file.
+	Page layout styles go in layout.css.
+
+	In production, do not use imports.
+	Instead, concatenante and minify files. 
+
+*/
+
+body {
+	font-family: Mirador, Futura, serif;
+	background-color: #bec2c1;
+	padding: 300px;
+}
+
+h1, h2 {
+	color: #f7f2dc;
+}
+
+h1 {
+	font-size: 70pt;
+	text-align: center;
+}
+
+h2 {
+	font-size: 40pt;
+}
+
+p {
+	font-family: Avenir next, Avenir, sans-serif;
+	color: #000000;
+	font-size: 20pt;
+	text-align: justify;
+}
+
+
+footer {
+	color: #929594;
+}
+
+
+
+a {
+	color: #f7f2dc
+}
+
+
+#introduction {
+	padding-bottom: 500px;
+}
+
+#secondintro {
+	padding-bottom: 400px;
+}
+
+blockquote {
+	font-size: 40pt;
+	text-align: center;
+	font-color: #929594;
+}
+
+Why does this not work? Do I have to make the blockquotes differentdivs. 
+
+#heartimage {
+	position: relative;
+	top: 0px;
+	left: 100px;
+	height: 450px;
+	width: 400px;
+
+}
+
+
+#headless {
+	position: relative;
+	left: 200px;
+}
+
+#bus-accident {
+	padding-top: 400px;
+	padding-bottom: 300px;
+}
+
+
+#handsflower {
+	padding-left: 250px;
+	padding-bottom: 400px;
+	padding-top: 100px;
+}
+
+
+
+
+#fridaydiego {
+	padding-left: 200px;
+	padding-bottom: 300px;
+	padding-top: 100px;
+}
+
+#frida-in-bed {
+	padding-left: 150px;
+	padding-top: 50px;
+	padding-bottom: 500px;
+}
+
+
+
+
+#pies {
+	padding-left: 200px;
+}
+
+#piesquote {
+	padding-top: 300px;
+}
+
+
+
+
+
+
+
+
+
+#finalfrida {
+	position: relative;
+	left: 200px;
+	padding-top: 400px;
+}
+
+
+#deathquote {
+	padding-bottom: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

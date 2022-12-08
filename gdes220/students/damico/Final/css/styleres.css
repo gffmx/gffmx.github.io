@@ -1,0 +1,191 @@
+
+@import 'h5bp/h5bp-head.css';
+@import 'h5bp/normalize.css';
+@import 'h5bp/h5bp-tail.css';
+
+
+
+
+@font-face {
+    font-family: 'moonshiner';
+    src: url('../fonts/moonshiner-webfont.eot');
+    src: url('../fonts/moonshiner-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/moonshiner-webfont.woff2') format('woff2'),
+         url('../fonts/moonshiner-webfont.woff') format('woff'),
+         url('../fonts/moonshiner-webfont.ttf') format('truetype'),
+         url('..fonts/moonshiner-webfont.svg#moonshinerround') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Karla', sans-serif;
+	src: url('../fonts/karla.ttf');
+}
+
+
+
+
+ul.navbar {
+    list-style-type: none;
+    padding: 0;
+  font-family: 'Karla', sans-serif;
+    font-size: 24px;
+    text-align: left;
+    width:80px;
+    margin-top: 0px;
+    margin-left: 1265px;
+    padding-top: 50px;
+    height: 50px;
+
+}
+
+.navbar li a {
+    display: block;
+    width: 80px;
+}
+
+a:link {
+    color: #a79271;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+	color: #a79271;
+}
+
+/* mouse over link */
+a:hover {
+    border-bottom: 2px solid #a79271;
+}
+
+/* selected link */
+a:active {
+	border color: #a79271;
+  color: white;
+}    
+
+h1 {
+	font-family: moonshiner;
+	font-size: 100px;
+	margin-left:110px;
+	font-weight: lighter;
+	margin-bottom: 0px;
+	height: 130px;
+	font-weight: lighter;
+  margin-top: -50px;
+  border-width: 2px;
+   border-bottom-width:2px;
+   border-bottom-color:White;
+
+
+}
+
+
+
+
+
+.content {
+	background: url('../img/reservationbg.png') center top no-repeat;
+	background-size: 100%;
+	display: inline-block;
+	z-index: -1; 
+	width: 1450px;
+}
+
+
+body {
+    min-width: 320px;
+    color: #a79271;
+    font-family: 'Source Serif Pro', serif;
+	width: 100%;
+	display: inline-block;
+	margin: 0px;
+}
+
+form {
+	background color: #a79271;
+font-family: 'Playfair Display', serif;
+	font-size: 18px;
+	line-height: 2;
+   margin-top:-100px;
+
+}
+
+
+
+form fieldset input{
+	    border-bottom: 1px solid #a79271; 
+	    border-top: 0px solid;
+	    border-left: 0px solid;
+	    border-right: 0px solid;
+	    height: 40px;
+	    background: rgba(255, 255, 255, 0.1);
+  		width: 375px;
+  		display: block;
+  		-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+ 		 -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  		box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  		padding: 0px;
+  		margin-top: 0px;
+
+}
+
+fieldset {
+	border: 0;
+	margin:100px;
+}
+
+textarea:focus, input:focus {
+  border: 1px solid #;
+}
+
+::-webkit-input-placeholder {
+ font-size: 12px;
+ padding-left: 7px;
+ font-family: karla;
+ padding-bottom: 0px;
+ color: #a79271;
+ opacity: 0.5;
+}
+
+label {
+	margin-bottom: 15px;
+}
+
+
+.button {
+  font-family: 'Karla', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: #a79271;
+  font-size: 15px;
+  background: transparent;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border-style: solid;
+   border-color: #a79271;
+   margin-top:10px;
+  
+}
+
+.button:hover {
+  background: #a79271;
+  text-decoration: none;
+  color: black;
+}
+
+.button:active {
+	border: ;
+}
+
+input {
+  color: #a79271;
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+  padding-left: 5px;
+}

@@ -1,0 +1,191 @@
+@import 'h5bp/h5bp-head.css';
+@import 'h5bp/normalize.css';
+@import 'h5bp/h5bp-tail.css';
+
+/* 
+
+	Put typographic formatting in the typography.css file.
+	Page layout styles go in layout.css.
+
+	In production, do not use imports.
+	Instead, concatenante and minify files. 
+
+*/
+body {
+	background-color: #FFFFF6;
+}
+
+#page-wrap {
+     width: 1380px;
+     margin: 0 auto;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.box {
+	width: 1380px;
+	height: 700px;
+	background-color: #52BCBC;
+}
+
+.line1 {
+	width: 800px;
+	height: 7px;
+	background-color: #C3E4E4;
+	z-index: 10;
+	position: relative;
+	float: right;
+	margin: -130px 110px;
+}
+
+.line2 {
+	width: 800px;
+	height: 7px;
+	background-color: #94D3D3;
+	top: 50px;
+	z-index: 10;
+	position: relative;
+	float: right;
+	margin: -120px 200px;
+}
+
+.po {
+	font-family: avenir, helvetica;
+	color: #C3E4E4;
+	font-size: 230px;
+	margin: auto;
+	padding: 100px;
+	float: right;
+}
+
+.per {
+	font-family: avenir, helvetica;
+	color: #C3E4E4;
+	-webkit-transform: rotate(-90deg);
+	font-size: 38px;
+	float: left;
+	margin: -230px 180px;
+}
+
+h3 {
+	font-size: 45px;
+	font-family: helvetica;
+}
+
+h3.history {
+	margin: 90px 560px -50px;
+	color: #94B1B1;
+}
+
+h3.pioc {
+	margin: 90px 100px -50px;
+	color: #94B1B1;
+}
+
+h3.aop {
+	text-align: right;
+	margin: 90px 110px -50px;
+	color: #94B1B1;
+}
+
+h3.twe {
+	margin: 90px 500px -50px;
+	color: #94B1B1;
+}
+
+h3.nin {
+	margin: 90px 500px -50px;
+	color: #94B1B1;
+	font-size: 35px;
+}
+
+p {position: static;
+	margin: 100px 300px;
+	line-height: 160%;
+	color: #94B1B1;
+}
+
+.text5 {
+	margin: auto 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h4 {
+	margin: 50px 100px;
+	float: right;
+	color: #94B1B1;
+}
+
+.sarah {
+	width: 100%;
+}
+
+.poetry {
+	width: 100%;
+}
+
+.man {
+	height: 300px;
+	width: 450px;
+	display: inline;
+	margin: 20px 80px 10px;
+	float: right;
+	margin-right: 100px;
+}
+
+.allenquote {
+	font: helvetica;
+	color: #8B84B9;
+	margin: 50px 400px 50px 400px;
+}
+
+.allenname {
+	font: helvetica;
+	color: #8B84B9;
+	margin: 20px 400px;
+	float: right;
+}
+
+.sarahquote {
+	font: helvetica;
+	color: #8B84B9;
+	margin: 50px 400px 50px 400px;
+}
+
+.sarahname {
+	font: helvetica;
+	color: #8B84B9;
+	margin: 20px 450px 30px;
+	float: right;
+}
+
+.line3 {
+	width: 600px;
+	height: 7px;
+	color: #BFE3E3;
+}
+
+.line4 {
+	width: 600px;
+	height: 7px;
+	color: #BFE3E3;
+}
+
+.mic {
+	width: 100%;
+}
+
+.footer {
+	letter-spacing: 5px;
+	word-spacing: 9px;
+	font-size: 12px;
+}

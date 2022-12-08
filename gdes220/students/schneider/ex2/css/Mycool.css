@@ -1,0 +1,18 @@
+body{
+	padding: 100;
+  	margin-bottom:10px;
+  	font-family: Arial, sans-serif;
+  	background-color: #F9E0E8;
+}
+
+
+a { 
+	color: #612c2c;
+}
+
+a:hover { color: #b23c3c;}
+
+
+
+
+/* styles end here */

@@ -1,0 +1,145 @@
+@import 'h5bp/h5bp-head.css';
+@import 'h5bp/normalize.css';
+@import 'h5bp/h5bp-tail.css';
+
+/* 
+
+	Put typographic formatting in the typography.css file.
+	Page layout styles go in layout.css.
+
+	In production, do not use imports.
+	Instead, concatenante and minify files. 
+
+*/
+.logo{
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
+  position:relative;
+}
+
+.homephoto{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 624px;
+}
+
+nav {
+    background: #CC9330;
+  color: #ffffff;
+  text-decoration: none;
+  margin: auto;
+  display: block;
+  padding: 10px;
+  width: 705px;
+  font: "freight-neo-pro",sans-serif;
+}
+
+h1{
+  font-family: "le-monde-livre-classic-std-s",sans-serif;
+  text-align: center;
+
+}
+h2{
+    font-family: "le-monde-livre-classic-std-s",sans-serif;
+  text-align: center;
+}
+.toni{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+
+  
+}
+
+.candace{
+  display:block;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+a:hover {
+  background: #FFB036;
+  text-decoration: none;
+  padding: 27px;
+}
+a { color: #fff; 
+    text-decoration: none;
+    padding: 27px;
+}
+
+a.submit{
+  padding: 0px
+}
+
+
+.navbar li{
+  font-size: 20px; 
+}
+
+body{
+	background-image: url("../img/pattern.jpg");
+	background-repeat: repeat;
+}
+
+
+li{
+  display: inline;
+  margin-right: 10px;
+
+}
+
+ul{
+  text-align: center;
+  
+}
+
+ul.policy{
+  width: 624px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p{
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 18px;
+  width: 550px;
+  font: "freight-neo-pro",sans-serif;
+  margin-top: -20px;
+}
+
+p.abouttext{
+  text-align: center;
+  padding: 15px;
+}
+.content{
+  background-color:#F2D5AF;
+  width: 624px;
+  display: block;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 90px;
+  margin-top: 0px;
+}
+
+p.contact{
+  margin: 30px;
+  padding: 10px;
+}
+form{
+  font-family: "freight-neo-pro",sans-serif;
+}
+
+form.p{
+  margin: 10px;
+}
+
+footer{
+  padding: 30px;
+  background-color:#CC9330;
+  margin: auto;
+}

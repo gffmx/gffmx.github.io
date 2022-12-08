@@ -1,0 +1,478 @@
+@import 'h5bp/h5bp-head.css';
+@import 'h5bp/normalize.css';
+@import 'h5bp/h5bp-tail.css';
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,100);
+
+
+
+
+
+
+
+
+nav,h1,h2,h3,h4,h5,h6,p,ul,span,fieldset,legend,label,input {
+	font-family: 'Lato', sans-serif;
+}
+
+nav {
+	font-weight: 100;
+	font-size: 1.777em;
+}
+
+h1 {
+	font-size: 72px;
+}
+
+p {
+	font-size: 36px;
+}
+
+h2 {
+	font-size:30px;
+}
+
+p,h1,h2,h3,a,footer,ul,fieldset,legend {
+	color: #f0efef;
+}
+
+
+
+body {
+	background-image: url(../img/background.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* WIDTHS OF PAGE */
+article, section, footer {
+	width: 1170px;
+	margin: auto;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	display: block;
+}
+
+nav {
+	width: 1170px;
+	margin: auto;
+}
+
+footer {
+	padding-top: 100px;
+	width: 1170px;
+}
+	
+div img {
+	width: 1170px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NAV STUFF */
+div.top {
+	width: 100%;
+}
+
+
+header{
+	padding-top: 20px;
+}
+
+nav{
+	position: static;
+	z-index: 100;
+}
+
+img.navimg{
+	margin-top: 50px;
+	width: 294px;
+	margin-left: 438px;
+}
+
+header nav ul li {
+	display: inline;
+	margin: 0 20px;
+}
+
+nav ul  {
+	margin-left: 220px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: line-through;
+}
+
+a:active {
+	text-decoration: line-through;
+}
+
+a.active {
+	text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+.footlogo {
+	width: 152px;
+	display: block;
+}
+
+footer nav {
+	display:inline-block;
+	max-width: 50%;
+}
+
+footer p {
+	font-size:20px;
+	vertical-align: bottom;
+	padding-top: 30px;
+}
+
+footer img {
+	display:inline-block;
+	float: right;
+}
+
+footer {
+	padding-bottom:20px;
+}
+
+footer {
+	height: 75px;
+	clear: both;
+}
+
+
+
+
+
+
+/* LARGE IMAGES AND WHATNOT */
+section.heropic1,section.heropic2,section.heropic4,section.heropic3 {
+	box-shadow: 0px 10px 25px #000;
+}
+
+section.heropic1 {
+	width: 100%;
+	height: 1120px;
+	margin-left:auto;
+	background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0)),
+	url("../img/homepic.jpg");
+	background-repeat: no-repeat;
+	background-position: center, center;
+	background-size: cover;
+}
+
+section.heropic2 {
+	width: 100%;
+	height: 1120px;
+	margin-left:auto;
+	background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0)),
+	url("../img/aboutpic.jpg");
+	background-repeat: no-repeat;
+	background-position: center, center;
+	background-size: cover;
+}
+
+section.heropic4 {
+	width: 100%;
+	height: 1120px;
+	margin-left:auto;
+	background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0)),
+	url("../img/servicepic.jpg");
+	background-repeat: no-repeat;
+	background-position: center, center;
+	background-size: cover;
+}
+
+section.heropic3 {
+	width: 100%;
+	height: 1120px;
+	margin-left:auto;
+	background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0)),
+	url("../img/pic 12.jpg");
+	background-repeat: no-repeat;
+	background-position: center, center;
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT PAGE -- CONTENT */
+
+article {
+	width: 1170px;
+}
+
+article h1,p {
+	width: 585px;
+}
+
+img.bodya {
+	border: 5px solid #f0efef;
+	display: inline-block;
+	position: absolute;
+	width: 585px;
+	margin-left: 585px;
+	margin-top: 20px;
+}
+
+
+img.bodyb{
+	margin-top: 100px;
+	border: 5px solid #f0efef;
+}
+
+a.special {
+	color: #666;
+}
+
+.blurpic img {
+ -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+      -o-transition: all .5s ease;
+     -ms-transition: all .5s ease;
+         transition: all .5s ease;
+}
+
+
+.blurpic img:hover {
+	-webkit-filter:blur(10px);
+}
+
+span#span1 {
+	font-size: 40px;
+	background: rgba(119,119,119,0.6);
+	padding: 10px 20px;
+	display: inline-block;
+	position: absolute;
+	margin-left: 730px;
+	margin-top: 350px;
+}
+
+span:hover {
+	text-decoration: line-through;
+}
+
+span#span2 {
+	font-size: 40px;
+	background: rgba(119,119,119,0.6);
+	padding: 10px 20px;
+	display: inline-block;
+	position: absolute;
+	margin-left: 390px;
+	margin-top: -420px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* SERVICES PAGE - CONTENT */
+p.fullp {
+	width:1170px;
+}
+
+h3.head {
+	font-size:20px;
+	margin-top:30px;
+}
+
+div.list {
+	width:1170px;
+	clear: both;
+	height: 100%
+}
+
+div.list2 {
+	display: inline-block;
+	width: 585px;
+	float: right;
+	margin-top: 10px;
+}
+
+img#pool{
+	border: 5px solid #f0efef;
+	width: 540px;
+	display:inline-block;
+	margin-top: 50px;
+}
+
+img#bfast {
+	border: 5px solid #f0efef;
+	width:540px;
+	display: inline-block;
+	float:right;
+	margin-right:20px;
+	position: absolute;
+	margin-left: 585px;
+}
+
+p.note {
+	font-size: 12px;
+	padding-top: 20px;
+	width: 585px;
+	clear:both;
+	float: right;
+}
+
+
+
+
+/* CONTACT PAGE - CONTENT */
+
+fieldset {
+	width: 510px;
+	float: left;
+}
+
+p.halfp {
+	width: 540px;
+}
+
+legend {
+	color: #f0efef;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 32px;
+}
+
+form {
+	margin-top: 10px;
+	margin-left: 70px;
+	margin-bottom: 10px;
+}
+
+input.date {
+	color: #000;
+}
+
+input[type=submit] {
+	background-color: #666;
+	padding:5px 15px; 
+	color: #f0efef;
+    border:0 none;
+    cursor:pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #222;
+	text-decoration: line-through;
+}
+
+img.contax {
+	width: 585px;
+	border: 5px solid #f0efef;
+	display: inline-block;
+	float: right;
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+	Put typographic formatting in the typography.css file.
+	Page layout styles go in layout.css.
+
+	In production, do not use imports.
+	Instead, concatenante and minify files. 
+
+*/
+
+

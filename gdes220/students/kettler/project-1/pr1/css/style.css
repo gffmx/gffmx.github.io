@@ -1,0 +1,468 @@
+@import 'h5bp/h5bp-head.css';
+@import 'h5bp/normalize.css';
+@import 'h5bp/h5bp-tail.css';
+
+/* 
+
+	Put typographic formatting in the typography.css file.
+	Page layout styles go in layout.css.
+
+	In production, do not use imports.
+	Instead, concatenante and minify files. 
+
+*/
+body{
+    
+  background-color: #3399FF;
+  }
+
+  .wrap {
+     width: 1380px;
+     margin: 0 auto;
+}
+  
+.box {
+  width: 1380px;
+  height: 650px;
+  background-color: #3399FF;
+}
+
+
+.po {
+  font-family: 'quicksand', sans-serif;
+  font-weight: 200;
+  color: #ffffff;
+  font-size: 275px;
+  margin: auto;
+  padding: 10px;
+  float: left;
+  margin-top: 100px; 
+  margin-bottom: 100px; 
+}
+
+.skiier3 {
+  width: 375px;
+  margin-top: 50px; 
+}
+
+.quote1 {
+  font-family:'Fira Sans', sans-serif;
+  font-weight: 100;
+  color: #ffffff;
+  font-size: 100px;
+  margin: auto;
+  padding: 100px;
+  float: right;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.mt{
+  width: 600px;
+  margin-bottom: 100px;
+}
+
+#skisymbols {
+  text-align: center;
+  padding-bottom: 75px;
+  padding-top: 75px;
+  margin: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px; 
+  padding: 5px;
+  padding-right: 15px;
+  background: #f2f2f2;
+  border: 15px solid #e6e6e6;
+}
+
+.sym {
+  padding: 35px;
+}
+
+.container1 {
+  position: relative; 
+   width: 100%;
+}
+
+.child1-info {
+  position: absolute; 
+  text-align: center;
+   top: 75px; 
+   left: 100px;
+   right: 150px;
+   font-family: 'Fira Sans', sans-serif;
+   font-weight: 100;
+   font-size: 30px;
+   color: #ffffff; 
+
+}
+
+#history {
+    padding-bottom: 25px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right
+    margin: 0 auto;
+    width: 1000px;
+    padding-left: 150px;
+    padding-right: 150px;
+    line-height: 30px;
+    color: #ffffff
+    
+  }
+
+  .historyh {
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  color: #ffffff;
+  }
+  
+  .historyp {
+    padding: 25px;
+    text-align: left;
+    padding:30px;
+  background: #f2f2f2;
+  border: 10px solid #e6e6e6;
+  font-family: 'Fira Sans', sans-serif;
+  color: #3399FF;
+     }
+
+
+  .pano{
+    width: 1380px;
+    padding: 50px;
+    padding-bottom: 100px;
+  }
+
+
+.pano {
+  height: auto;
+  width: 1300px;
+
+   -webkit-transition: all9999999s ease-out;
+     -moz-transition: all 9999999s ease-out;
+       -o-transition: all 9999999s ease-out;
+      -ms-transition: all 9999999s ease-out;
+          transition: all 9999999s ease-out;
+      -webkit-transition: all 9999999s ease-out;
+ 
+}
+
+ 
+.pano:hover {
+  width: 500px;
+  height: auto; 
+
+   -webkit-transition: all 5s ease;
+     -moz-transition: all 5s ease;
+       -o-transition: all 5s ease;
+      -ms-transition: all 5s ease;
+          transition: all 5s ease;
+      -webkit-transition: all 5s ease out;
+}
+
+ 
+.typeh{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  color: #ffffff;
+
+}
+
+#types {
+  padding-bottom: 25px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 1200px;
+  height: auto;
+  font-family: 'Fira Sans', sans-serif;
+
+}
+ .nordic {
+  float: left; 
+  width: 33%;
+  width: 300px;
+  height: auto;
+  margin:0;
+  padding:30px;
+  background: #f2f2f2;
+  border: 5px solid #e6e6e6;
+  font-family: 'Fira Sans', sans-serif;
+  color: #3399FF;
+ }
+
+ .alpine {
+width: 300px;
+padding:30px;
+display: inline-block; 
+ width: 33%;
+background: #f2f2f2;
+border: 5px solid #e6e6e6;
+font-family: 'Fira Sans', sans-serif;
+color: #3399FF;
+
+ }
+
+.tele {
+float:right; 
+width: 33%;
+width: 300px;
+padding:30px;
+background: #f2f2f2;
+border: 5px solid #e6e6e6;
+font-family: 'Fira Sans', sans-serif;
+color: #3399FF;
+}
+
+.mt3 {
+width: 900px;
+height: auto;
+padding: 20px;
+margin: 75px;
+}
+
+.mt3 {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.mt3:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+#comp{
+    padding-bottom: 25px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 0 auto;
+    width: 900px;
+    padding-left: 200px;
+    padding-right: 200px;
+    line-height: 20px;
+}
+
+.compp{
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.comph{
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.list {
+  padding: 25px;
+  list-style-image:  
+  height: auto;
+  margin:0;
+  padding:30px;
+  background: #f2f2f2;
+  border: 5px solid #e6e6e6;
+  font-family: 'Fira Sans', sans-serif;
+  color: #3399FF;
+}
+
+.listthing{
+  color: #4169E1;
+  font-size: 'lato', sans-serif;
+  font-size: 20px; 
+}
+
+.mt2 {
+width: 900px;
+height: auto;
+padding: 20px;
+margin: 75px;
+}
+
+.mt2 {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.mt2:hover {
+  -webkit-transform: rotate(10deg);
+     -moz-transform: rotate(10deg);
+       -o-transform: rotate(10deg);
+      -ms-transform: rotate(10deg);
+          transform: rotate(10deg);
+}
+
+#random-container{
+width: 1000px;
+}
+
+.equip {
+  float: right; 
+  width: 350px;
+  height: auto;
+  margin:10px;
+  padding:25px;
+  padding-top: 15px;
+  margin-bottom: 25px;
+  background: #f2f2f2;
+  border: 5px solid #e6e6e6;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 20px;
+  color: #3399FF;
+ }
+
+.equiph {
+font-family: 'Lato', sans-serif;
+font-size: 50px;
+text-align: center;
+color: #ffffff;
+background-color: #4169E1;
+}
+
+
+.tech {
+  float: left; 
+  width: 350px;
+  height: auto;
+  margin:10px;
+  margin-bottom: 25px;
+  margin-left:300px;
+  padding:25px;
+  padding-top: 15px;
+  background: #f2f2f2;
+  border: 5px solid #e6e6e6;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 20px;
+  color: #3399FF;
+ }
+
+.techh {
+font-family: 'Lato', sans-serif;
+font-size: 50px;
+text-align: center;
+color: #ffffff;
+background-color: #4169E1;
+}
+
+
+.nosnow {
+   float: right; 
+  width: 350px;
+  height: auto;
+  margin:10px;
+  margin-bottom: 25px;
+  padding:25px;
+  padding-top: 15px;
+  background: #f2f2f2;
+  border: 5px solid #e6e6e6;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 20px;
+  color: #3399FF;
+}
+
+.nosnowh {
+font-family: 'Lato', sans-serif;
+font-size: 50px;
+text-align: center;
+color: #ffffff;
+background-color: #4169E1;
+}
+
+.chair{
+width: 700px;
+height: auto;
+padding: 5px;
+margin: 5px;
+}
+
+.chair {
+  height: auto;
+  width: 900px;
+
+   -webkit-transition: all9999999s ease-out;
+     -moz-transition: all 9999999s ease-out;
+       -o-transition: all 9999999s ease-out;
+      -ms-transition: all 9999999s ease-out;
+          transition: all 9999999s ease-out;
+      -webkit-transition: all 9999999s ease-out;
+ 
+}
+
+ 
+.chair:hover {
+  width: 0px;
+  height: auto; 
+
+   -webkit-transition: all 7s ease;
+     -moz-transition: all 7s ease;
+       -o-transition: all 7s ease;
+      -ms-transition: all 7s ease;
+          transition: all 7s ease;
+      -webkit-transition: all 7s ease out;
+}
+
+
+
+#chaircontainer {
+ 
+  width: 100%;
+  bottom: 50px;
+  display: inline-block;
+  padding-top: 50px; 
+  padding-bottom: 200px;
+}
+
+.ticket {
+  text-align: center;
+   left: 100px;
+   right: 100px;
+   font-family: 'Fira Sans', sans-serif;
+   font-weight: 100;
+   font-size: 50px;
+   color: #ffffff; 
+   padding-bottom: 50px;
+}
+
+#footer{
+  letter-spacing: 5px;
+  word-spacing: 9px;
+  margin: 100px;
+  padding: 25px;
+  font-size: 15px;
+  width: 1380;
+  vertical-align: bottom;
+  position: relative;
+  font-family: 'Fira Sans', sans-serif;
+  color: #3399FF;
+  text-align: center;
+  background-color:#ffffff;
+}
+
+a:link { 
+  color: #B0E0E6;
+}
+a:visited {
+  color: #87CEEB
+}
+a:hover {
+  color: #40E0D0;
+}
+a:active {
+  color:  #AFEEEE;
+}
+
+
+

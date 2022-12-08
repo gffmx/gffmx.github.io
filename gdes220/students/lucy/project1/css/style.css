@@ -1,0 +1,159 @@
+body {
+	background-image: url("img/bg.png");
+    background-color: #9893B2;
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-image-width: 960px;
+   
+	}
+h1	{
+	color:#3B3569;
+	font-family: "litania", "acumin-pro", "Arial", serif;
+	font-size: 80px;
+	margin-left:40px;
+	}
+h2	{
+	color:#3B3569;
+	font-family: "latania","acumin-pro", "Arial", serif;
+	font-size: x-large;
+
+	}
+h4	{
+	color:#FFFCEC;
+	font-family:"acumin-pro", "Arial", serif;
+	font-size: medium;
+	}
+
+h5	{
+	color:#EEECFF;
+	font-family:"acumin-pro", "Arial", serif;
+	font-size: 14px;
+	font-style: normal;
+	}
+
+#intro {
+	width:600px;
+	height:300px;
+	margin: 110px auto 150px 550px;
+	color:#EEECFF;
+	font-family:"acumin-pro", "Arial", serif;
+	text-decoration: none;
+	}
+#wrapper
+	{
+	margin-left: 100px;
+	margin-right: 680px;
+	margin-top: 300px;
+	width: 960px;
+	display: left;
+	}
+p	{
+
+	color:#EEECFF;
+	font-family: "tablet-gothic-wide", sans-serif;
+	display: left;
+	font-size:14px;
+	}
+
+blockquote
+	{
+	width: 600px;
+	height: auto;
+	color:#100B36;
+	font-family: "tablet-gothic-wide", "Arial", serif;
+	display: left;
+	font-style: italic;
+	}
+#nav-bar {
+	padding: 0px;
+	position: top right;
+	margin-left: 550px;
+	margin-top: 0px;
+	position: static;
+	width:960px;
+	}
+#x	{
+	align: left;
+	margin-left:100px;
+	position: absolute;
+	width:960px;
+	}
+a   {
+	text-decoration:none;
+	}
+a:hover{
+	opacity: 0.8;
+	}
+
+#one, #two{
+	padding: 15px;
+	width: 275px;
+	height: auto;
+	background-color:#231569;
+	margin: 5px;
+	display: block left;
+	}
+#three{
+	padding: 15px;
+	width: 275px;
+	height: auto;
+	background-color:#231569;
+	margin: 5px;
+	float: right;
+	display: right;
+	position: relative;
+	right: 335px;
+	bottom: 464px;
+}
+#four{
+	padding: 15px;
+	width: 275px;
+	height: auto;
+	background-color:#231569;
+	margin: 5px;
+	display: right;
+	}
+#five{
+	padding: 15px;
+	width: 275px;
+	height: auto;
+	background-color:#231569;
+	margin: 5px;
+	display: right;
+	position: relative;
+	left: 310px;
+	bottom: 346px;
+	}
+#six{
+	padding: 15px;
+	width: 275px;
+	height: auto;
+	background-color:#231569;
+	margin: 5px;
+	float: right;
+	position: relative;
+	right: 25px;
+	bottom: 1148px;
+	}
+</body>
+
+/*
+dark blue:#100B36
+light grey:#EEECFF
+cream:#FFFCEC
+brown:#B2AC82;
+purple:#9893B2;
+dark purple:#3B3569;
+funky o: &oslash;
+
+p 
+width: 450px;
+height: auto;
+
+	background-color:#9893B2;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0px 400px auto 0px;
+	background-position: center local;
+/*

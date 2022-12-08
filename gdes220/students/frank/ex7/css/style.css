@@ -1,0 +1,100 @@
+main {
+	width: 1000px;
+	margin: 0px auto;
+}
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	background-image: url(../sprinkles.png);
+ }
+
+header.title {
+	font-family: 'Chelsea Market', cursive;
+	text-align: center;
+	font-size: 150%;
+	padding: 5px;
+	color: #fff;
+	background-image: url(../eight_horns.png);
+	width: 1000px;
+	height: 125px;
+}
+
+div.info {
+	text-align: right;
+}
+
+img {
+	float: right;
+	margin: 0 0 1em 1em;
+}
+
+
+h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #000066;
+}
+
+a:link {
+	font-style: bold;
+}
+
+a:visited {
+	font-variant: #ADD8E6;
+}
+
+a:hover {
+	font-style: italic;
+}
+
+a:active {
+	font-color: red;
+}
+
+#main-photo {
+	width:300px;
+	border:5px solid #000066;
+}
+
+
+ul {
+	list-style: inside circle;
+	width:500px;
+	height: 225px;
+	font-size:100%;
+	color: #000066;
+}
+
+li {
+	margin:10px 0px 0px 0px;
+}
+
+ol {
+	list-style: decimal;
+	font-size: 100%;
+	color: #000066;
+}
+
+div.table {
+	background-color: #fff9e5;
+	width:400px;
+	height: 550px;
+	border:2px solid #000066;
+	margin: auto;
+	padding: auto;
+}
+
+h3 {
+	text-align: center;
+	font-size: 150%;
+	text-decoration: underline; 
+}
+
+th, td {
+	padding: 10px 10px 10px 20px;
+}
+
+
+footer {
+	text-align: center;
+	background-image: url(../eight_horns.png);
+}

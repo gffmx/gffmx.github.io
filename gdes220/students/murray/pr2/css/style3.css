@@ -1,0 +1,35 @@
+@import 'h5bp/h5bp-head.css';
+@import 'h5bp/normalize.css';
+@import 'h5bp/h5bp-tail.css';
+
+body{
+	background-image:url(../img/ideas.png);
+	width:10%;
+	background-origin:content-box;
+	background-position:top;
+	background-size:40%;
+	
+	
+}
+.container{
+	width:1024px;
+	color:white;
+	margin:auto;
+	min-height:100px;
+	margin-top:200px;
+	
+	}
+#chant{visibility: hidden;}
+
+.content{
+  width: 945px;
+  margin: 0 auto;
+  
+  padding-top:00px;
+
+  margin-top:0px;
+}
+* {
+  box-sizing: border-box;
+}
+

@@ -1,0 +1,97 @@
+title {
+	font-family: Verdana;
+	color: maroon;
+}
+
+body {
+	font-family: Verdana;
+	color: maroon;
+	background-image: url("../images/pink_rice.png");
+}
+
+table,tr {
+	border: 20px solid green;
+	padding: 15px;
+	background-color: white;
+	width: 565px;
+	margin: auto;
+	text-align: center;
+}
+
+ul {
+list-style: inside circle;
+width: 300px;}
+ol {
+list-style: upper-alpha;}
+
+a:link {
+color: black;
+text-decoration: underline;}
+a:visited {
+color: maroon;}
+a:hover {
+color: blue;
+text-decoration: none;}
+a:active {
+color: white;}
+
+img {
+	border: 5px solid green;
+	padding: 1px;
+}
+
+#image2 {
+	border: none;
+	float: right;
+}
+
+.time {
+	background-color: white;
+}
+
+header {
+	width: 565px;
+	height: auto;
+	margin: auto;
+	text-align: center;
+}
+
+article {
+	width: 500px;
+	height: 230px;
+	padding: 10px;
+	margin: 30px 10%;
+	background-color: #fff2f2;
+}
+
+div {
+	width: 500px;
+	height: 100px;
+	padding: 10px;
+	margin:30px 10%;
+	background-color: #fff2f2;
+}
+
+.ing {
+	margin: 30px 10%;
+}
+
+figure {
+	margin: auto 10%;
+}
+
+.nutr {
+	width: auto;
+	height: auto;
+	padding: 20px;
+	margin: auto;
+	text-align: center;
+
+}
+
+section {
+	width: 950px;
+	height: 300px;
+	padding: 10px;
+	margin: 30px 10%;
+}

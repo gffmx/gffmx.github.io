@@ -1,0 +1,54 @@
+body {
+  background-image: url("images/gradient.png")
+     }
+
+  .black-bold {
+    font-family: "Arial";
+    color: black;}
+
+ul, li,	ol {
+		font-family: “Baskerville Old Face”, “Hoefler Text”, Garamond, serif;
+    font-size: 18px}
+
+.recipe .raspberrylist ol, ul  
+    {list-style-image: url('raspberryII.png');}
+
+h1, h2, a	
+    {
+		font-style: italic;
+		color: #ff1a75;
+    text-decoration: none;
+    font-family: "Arial";}
+
+a:hover   {color:#DE1766;}
+a:visited {color:#DE497F;}
+a:active  {color:#DE0859}
+
+img {
+    border-width: 15px; 
+    border-color: #27C398;}
+
+table {
+  border-width:3px;
+  border-color:#27C398;
+  background-color:#66CDB1;
+  color: #000000;
+  text-align: left;
+  font-family: “Baskerville Old Face”, “Hoefler Text”, Garamond, serif;
+  font-size: medium;
+width:325px}
+
+th, td {
+  padding-top:2px;
+  padding-bottom:2px;}
+
+body {padding-left: 50px;}
+
+th:hover, td:hover { color:#0C7659;}
+
+/*
+darker teal: #27C398
+lighter teal: #66CDB1
+fuschia: #ff1a75
+alt background: http://colorfulgradients.tumblr.com/image/138470351102 
+*/

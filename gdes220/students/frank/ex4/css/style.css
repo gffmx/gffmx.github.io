@@ -1,0 +1,49 @@
+body {
+	font-family: Verdana, sans-serif;
+	background-image: url(../sprinkles.png);}
+
+h1, h2 {
+	font-family: Verdana, sans-serif;
+	color: #000066;}
+
+a:link {
+	font-style: bold;}
+
+a:visited {
+	font-variant: #ADD8E6;}
+
+a:hover {
+	font-style: italic;}
+
+a:active {
+	font-color: red;}
+
+#main-photo {
+	width:400px;
+	border:5px solid #000066;}
+
+
+ul {
+	list-style: inside circle;
+	width:300px;
+	font-size:85%;
+	color: #000066;}
+li {
+	margin:10px 0px 0px 0px;}
+
+ol {
+	list-style: decimal;
+	font-size: 85%;
+	color: #000066;}
+
+
+
+
+table {
+	width:400px;
+	border:2px solid #000066;
+	background-color: #ADD8E6;}
+
+th, td {
+	padding:7px 10px 10px 10px;
+	

@@ -1,0 +1,226 @@
+body#background {
+  background-image: url('tlcolor.png');
+    background-repeat: no-repeat;
+    background-attachment: static;
+    height: 50px;
+}
+
+body{
+    background: #333;
+    width:100%;
+    margin: auto;
+
+}
+.container {
+    width:100%;
+    margin: 0 auto;
+    
+}
+.header {
+    background:#000000;
+    width: 100%;
+    top: 0;
+    position: fixed;
+
+}
+.logo{
+    float: left;
+    padding-left: 20px;
+    padding-top: 1px;
+
+}
+
+.footer-wrap{
+  background-color:#000000;
+  padding-top:20px;
+  padding-bottom:20px;
+  z-index: 999;
+  margin-top:4200px;
+}
+
+.footer-wrap p{
+  font-family: 'Roboto';
+  color:white;
+  text-align: center;
+
+}
+a.logo
+
+.logo:hover:before {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 211px;
+  height: 211px;
+  }
+
+li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 46px;
+    text-decoration: none;
+    float: left;
+    margin-left: 15px;   
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    letter-spacing: 2px;
+    padding-right: 40px;
+    float: right;
+}
+
+.nav{
+    float:right;
+}
+
+
+a {
+  color:white;
+  text-decoration: none;
+
+  /* First we need to help some browsers along for this to work.
+     Just because a vendor prefix is there, doesn't mean it will
+     work in a browser made by that vendor either, it's just for
+     future-proofing purposes I guess. */
+  -o-transition:color .2s ease-out, background 2s ease-in;
+  -ms-transition:color .2s ease-out, background 2s ease-in;
+  -moz-transition:color .2s ease-out, background 2s ease-in;
+  -webkit-transition:color .2s ease-out, background 2s ease-in;
+  /* ...and now for the proper property */
+  transition:color .2s ease-out, background 2s ease-in;
+}
+a:hover { color:#FA0094;}
+
+
+.founding {
+    position: absolute;
+    top: 57em;
+    left: 8em;
+    border:  10px solid #000000;
+    z-index: -1;  
+}
+
+.text1 {
+    position: absolute;
+    top: 60.9em;
+    left: 56em;
+    border: 7px solid #000000; 
+    z-index: -1; 
+    font-family: 'Roboto', sans-serif; 
+
+}
+
+.jag {
+    position: absolute;
+    top: 74em;
+    left: 53.2em;
+    border: 10px solid #000000; 
+    z-index: -1;  
+}
+
+.text2 {
+    position: absolute;
+    top: 80em;
+    left: 3.3em;
+    border: 7px solid #000000; 
+    z-index: -1; 
+    font-family: 'Roboto', sans-serif;  
+}
+
+.calc {
+    position: absolute;
+    top: 105em;
+    left: 20.5em;
+    border: 7px solid #000000; 
+    z-index: -1;  
+}
+
+.text3 {
+    position: absolute;
+    top: 117.5em;
+    left: 56em;
+    border: 7px solid #000000; 
+    z-index: -1; 
+    font-family: 'Roboto', sans-serif; 
+
+}
+
+.nike {
+    position: absolute;
+    top: 142em;
+    left: 20.5em;
+    border: 10px solid #000000; 
+    z-index: -1;  
+}
+
+.text4 {
+    position: absolute;
+    top: 149em;
+    left: 56em;
+    border: 7px solid #000000; 
+    z-index: -1; 
+    font-family: 'Roboto', sans-serif; 
+}
+
+.computer {
+    position: absolute;
+    top: 163em;
+    left: 53.2em;
+    border: 10px solid #000000; 
+    z-index: -1;  
+}
+
+.text5 {
+    position: absolute;
+    top: 170.3em;
+    left: 6em;
+    border: 7px solid #000000; 
+    z-index: -1; 
+    font-family: 'Roboto', sans-serif;  
+}
+
+
+
+.iphone {
+    position: absolute;
+    top: 202em;
+    left: 8em;
+    border:  10px solid #000000;
+    z-index: -1; 
+    
+}
+
+.text6 {
+    position: absolute;
+    top: 207.4em;
+    left: 56.3em;
+    border: 7px solid #000000; 
+    z-index: -1; 
+    font-family: 'Roboto', sans-serif; 
+}
+
+.rebrand {
+    position: absolute;
+    top: 237em;
+    left: 53.2em;
+    border:  10px solid #000000;
+    z-index: -1; 
+    
+}
+
+.text7 {
+    position: absolute;
+    top: 238em;
+    left: 10em;
+    border: 7px solid #000000; 
+    z-index: -1; 
+    font-family: 'Roboto', sans-serif;  
+}
+
+
+#footer-wrap { background:#000000; }
+#footer { width:954px; margin:auto; }
+
+
+
+

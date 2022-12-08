@@ -1,0 +1,110 @@
+.FrenchAlmond {
+	color: #5F9EA0;
+	font-family: font-family: "Big Caslon", 
+	"Book Antiqua", "Palatino Linotype", Georgia, serif;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 20px;
+}
+
+
+img { 
+   border:3px 
+   solid #7AC5CD;
+   margin: 20px;
+	}
+<img style="border:5px; color: #CDC8B1"; 
+	>
+
+ body {
+ 	font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; 
+	}
+
+body {
+	background-image: url("../images/background.png");
+	}
+
+
+
+#yield {
+	color: #7AC5CD;
+	font-size: 20px;
+	margin: 20px;
+	}
+
+#nutrition {
+	color: #7AC5CD;
+	font-size: 20px;
+	margin: 20px;
+	}
+
+#line {color: #7AC5CD;
+	font-size: 20px;
+	margin: 20px;
+	}
+
+#tabletext {
+	color: #7AC5CD;
+	font-size: 15px;
+	}
+
+table {
+    border-collapse: collapse;
+    border-bottom: 0px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	background-color: #ffffe5; 
+	margin: 20px;
+	}
+
+#ingredients {
+	color: #7AC5CD;
+	font-size: 20px;
+	font-style: bold;
+	margin: 20px;
+	}
+
+ul {
+	color: #7AC5CD;
+	font-size: 20px;
+	margin: 20px;
+	}
+
+
+#instructions {
+	color: #00b386;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 20px;
+	}
+
+ol {
+	color: #00b386;
+	font-size: 20px;
+	margin: 20px;
+	}
+
+
+#snacks {
+	color: #d98cd9;
+	font-size:20px;
+	margin: 20px;
+	}
+
+
+a:link {
+    color: #ffcccc;
+	}
+
+ a:visited { 
+    color: #d98cd9;
+	}
+
+a:hover {
+    color: #ffcccc;
+	}
+
+a:active {
+    color:  #ac39ac;
+	}

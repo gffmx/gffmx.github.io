@@ -1,0 +1,108 @@
+body{
+    
+    background-image: url("../img/cheap_diagonal_fabric.png");
+    background-repeat: repeat;
+    padding:50px;
+    font-family: georgia, serif;
+    margin: 0px;
+
+  }
+.center{
+    width:600px;
+    margin:0 auto;
+  }
+
+title{
+    text-transform: uppercase;
+}
+
+p{color: blue;}
+
+img {
+    border:50px 
+    groove #4B0082;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+   h2,h3,h4,h5 {
+    font-family: 'Roboto', sans-serif;     
+}
+
+h3 {
+  color: #8B4513;
+}
+h4 {
+  color:  #556B2F;
+}
+
+h1{
+    font-size: 400%;
+    text-align: left;
+}
+
+ a:link {
+    color: #191970;
+    text-decoration: none;
+}
+a:visited {
+    color: #00FFFF;
+    text-decoration: none;
+}
+a:hover {
+    color: #800080;
+    text-decoration: none;
+}
+a:active {
+    color: #DC143C;
+    text-decoration: none;
+}
+
+.list{
+    text-align: left;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+  }
+
+  
+
+ul {
+    width:400px;
+    list-style-position: inside;
+    list-style-type: square; 
+    color:  #008080;
+    margin-bottom: 20px;
+    text-align: left;
+    border: 2px double #000000;
+}
+
+ol {
+    width:400px;
+    list-style-position: inside;
+    list-style-type: decimal;
+    color: #008080;
+    margin-bottom: 20px;
+    text-align: left; 
+    border: 2px double #000000; 
+}
+
+table,tr {
+    width:400px;
+    margin-left:100px;
+    border: green;
+    background-image: url("../img/swirl_pattern.png");
+    background-repeat: repeat;
+     border: 5px double #000000; 
+     padding: 15px;
+}
+#close{
+    float: center;
+    height: 500px;
+    width: 100%;
+    padding: 10px;
+}
+ 
+   
+
+

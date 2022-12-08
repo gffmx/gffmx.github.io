@@ -1,0 +1,52 @@
+@import 'h5bp/h5bp-head.css';
+@import 'h5bp/normalize.css';
+@import 'h5bp/h5bp-tail.css';
+
+/* 
+
+	Put typographic formatting in the typography.css file.
+	Page layout styles go in layout.css.
+
+	In production, do not use imports.
+	Instead, concatenante and minify files. 
+
+*/
+
+.headerimage{
+	background-image: url("img/header.jpg");
+	width: 100%;
+
+}
+
+.plot1{
+	background-image: url("img/plot1.jpg");
+	text-align: left;
+	padding-left: 50px;
+	padding-right: 950px;
+	padding-top: 200px;
+	margin: 200px;
+	position: relative;
+}
+
+.plotimage{
+	border-right: 50px;
+	padding-right: 50px;
+
+}
+
+p{
+	width: 533px;
+
+}
+
+.devall{
+	width:1600px;
+}
+
+.plotall{
+	width: 1600px;
+}
+
+.resall{
+	width: 1600px;
+}

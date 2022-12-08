@@ -1,0 +1,87 @@
+
+
+body {
+	font-family: Georgia, Helvetica, Arial;
+	color: rgb(255 , 0 , 127);
+	background: 
+		url(geometry2.png);
+}
+
+
+
+img {
+	padding: 6px;
+	border: 6px solid #404040;
+
+}
+
+h1 {
+	text-align: center;
+}
+
+h2, h3 {
+	color: rgb(96,96,96);
+	text-align: left;
+}
+
+
+
+a:link { 
+	color: rgb(64,64,64);
+
+}
+
+a:visited { color: rgb(153,0,76);
+
+}
+
+a:hover { font-size: 200%}
+
+a:active {color: rgb(0,204,204);}
+
+img.align-center {
+	display: block;
+	margin: 0px auto;}
+img.medium {
+	width: 250px;
+	height: 250px;
+}
+
+
+ul {
+	list-style-type: circle;
+
+
+}
+
+
+ol {
+	width: 300px;
+	list-style-position: outside;
+	margin: 10px;
+}
+
+
+ #food:hover { 
+ 	color: rgb(102,0,204);
+
+}
+
+
+
+table {
+	font-family: Arial, Verdana;
+	color: #404040;
+}
+
+.title {
+	text-align: center;
+}
+
+.value {
+	text-align: center;
+}
+
+.nutrition {
+	text-align: left;
+}

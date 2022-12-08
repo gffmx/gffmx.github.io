@@ -1,0 +1,224 @@
+@import 'h5bp/h5bp-head.css';
+@import 'h5bp/normalize.css';
+@import 'h5bp/h5bp-tail.css';
+
+/* 
+
+	Put typographic formatting in the typography.css file.
+	Page layout styles go in layout.css.
+
+	In production, do not use imports.
+	Instead, concatenante and minify files. 
+
+*/
+
+.headerimage{
+	background-image: url("img/header.jpg");
+	width: 100%;
+
+}
+
+
+.buttons{
+	width: 589px;
+	margin: auto;
+	margin-top: 90px;
+}
+
+.buttons a{
+	  background: #cb1244;
+  background-image: -webkit-linear-gradient(top, #cb1244, #cb1244);
+  background-image: -moz-linear-gradient(top, #cb1244, #cb1244);
+  background-image: -ms-linear-gradient(top, #cb1244, #cb1244);
+  background-image: -o-linear-gradient(top, #cb1244, #cb1244);
+  background-image: linear-gradient(to bottom, #cb1244 #cb1244);
+  -webkit-border-radius: 58px;
+  -moz-border-radius: 58px;
+  border-radius: 28px; 
+  color: #ffffff;
+  text-decoration: none;
+  margin: auto;
+  display: inline-block;
+  padding: 20px;
+}
+
+
+
+a:hover {
+  background: #dd577f;
+  text-decoration: none;
+}
+
+
+
+.devall{
+	width:1200px;
+	padding: 75px auto 0;
+	margin: auto;
+	background-color: #dd577f
+	color:white;
+}
+
+.plotall{
+	width: 1200px;
+	margin: auto;
+	background-color: #dd577f
+	
+}
+
+.resall{
+	width: 1200px;
+	margin: auto;
+	background-color: #dd577f
+
+
+}
+.awardsall{
+	width: 1200px;
+	margin: auto;
+	background-color: #dd577f
+	
+}
+
+p{
+	width: 300px;
+	font-family: "futura-pt",sans-serif;
+}
+
+.plot2{
+	margin-top: -100px;
+}
+p.plottext1{
+	display: inline-block;
+	margin-top: 100px;
+	margin-left: 30px;
+
+}
+
+#plotlabel{
+	display: inline-block;
+	margin-left: 130px;
+	margin-top: -180px;
+}
+
+#plotimage{
+	display: inline-block;
+	margin: 80px;
+	margin-top: 100px;
+
+}
+
+p.plottext2{
+	display: inline-block;
+	margin-left: -500px;
+	margin-top: 300px;
+	
+	
+
+}
+
+#plotimage2{
+	display:inline-block;
+ 	padding-bottom: 50px;
+	padding-left: 50px;
+	margin-top: 94px;
+	margin-right: 80px;
+}
+
+p.plottext3{
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: -50px;
+}
+.plotimage3{
+	display: inline-block;
+	margin: 80px;
+	margin-top: 120px;
+}
+
+}
+
+p.devtext1{
+	display: inline-block;
+	margin-left: 50px;
+
+	
+}
+
+p.devtext2{
+	display: inline-block;
+	margin: 30px;
+	margin-top: -300px;
+	margin-left: 440px;
+}
+
+#devimage2{
+	display: inline-block;
+	margin-top: -790px;
+	margin-left: 370px;
+
+}
+
+p.devtext3{
+	display: inline-block;
+	margin-top: -1600px;
+	margin-left: 850px;
+}
+
+#devlabel{
+	display: inline-block;
+	margin-top: -730px;
+	margin-left: 700px;
+}
+
+p.restext1{
+	display: inline-block;
+	margin-left: 30px;
+}
+
+p.restext2{
+	display:;
+	margin-left: 440px;
+	margin-top: -840px;
+}
+ .reslabel{
+	display: inline-block;
+	margin-top: -820px;
+	margin-left: 390px;
+}
+
+p.restext3{
+	display: inline-block;
+	margin-left: 850px;
+	margin-top: -500px;
+}
+
+.awardstext1{
+	display: inline-block;
+	margin-left: 440px;
+	margin-top: -840px;
+}
+
+.awardimage{
+	display: inline-block;
+	margin-left: -60px;
+	margin-top: 60px;
+}
+
+.awardspic{
+	display: inline-block;
+	margin-top: -450px;
+	margin-left: 370px;
+	margin-right: 30px;
+
+}
+body{background-color: #dd577f;
+	width: 100%;
+
+}
+
+footer{
+	background-color:#cb1244;
+	padding: 50px;
+	text-align: center;
+}

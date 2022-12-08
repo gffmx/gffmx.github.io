@@ -1,0 +1,55 @@
+body {
+	background: url(../images/restaurant_icons.png);
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color:#add8e6;
+	}
+	.center{ 
+		width:500px;
+		margin: auto;
+		height: 3000px;}
+
+	#okay{
+		border:50px solid #021a40;
+		padding:10px;
+	}
+
+	h1, h2, h3 { 
+		color:#800080;}
+		a:visited {
+			color:##800080
+		}
+		a:active {
+			color:#808080;
+		}
+		a:hover {
+			color:#c0c0c0;
+		}
+		a:link {
+			color:#ff00ff;
+		}
+		ol {
+			list-style-type: decimal;
+		}
+		ul {
+			list-style-type: circle;
+		}
+		table {
+			width:600px;
+			background-color:#FFFFFF
+			}
+			th, td {
+				padding: 15px;
+			}
+
+.maroon {
+	color: #000000;
+}
+
+.center{
+	width: 600px;
+	margin: 50px auto;
+}
+.words{ 
+padding: 30px 10px;
+background: #FFFFFF;
+}

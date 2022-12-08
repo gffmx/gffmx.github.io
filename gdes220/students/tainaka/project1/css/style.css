@@ -1,0 +1,130 @@
+header{
+	text-align: center;
+	line-height: 60px;
+	padding-top: 50px;
+	margin-bottom: 20px;
+	font-family: 'header';
+	color: #666666;
+
+}
+
+@font-face {
+    font-family: 'header';
+    src: local(Futura);
+
+}
+
+body{
+	background-image: url(uyuni_topimage.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	position: relative;
+	font-family: arial, sans-serif;
+	overflow-x: hidden;
+
+}
+
+#salar{font-size: 120px;}
+#de{font-size: 110px;}
+#uyuni{font-size: 200px;
+	position: relative;
+	z-index: 50;}
+
+#buttonbackgr{
+	background-color: rgba(255,255,255,0.5);
+	z-index: 40;
+	position: absolute;
+	top: 380px;
+	width:100%;
+	margin: auto;
+	padding: 40px;
+}
+
+#button{
+	
+	width: 100%;
+	font-size: 30px;
+	position: absolute;
+	top: 370px;
+	text-align: center;
+	z-index: 60;
+}
+
+#button ul{
+	list-style-type: none;
+}
+
+#button li{
+	display: inline;
+	padding: 35px;
+}
+
+#buttonline{
+	background-color: #cccc99;
+	padding: 15px;
+	z-index: 50;
+	width: 100%;
+	top: 410px;
+	position: absolute;
+	margin: auto;
+}
+
+#backgrpink{
+	background: -webkit-linear-gradient(top, #ffcccc 50%,rgba(255,255,255,0) 100%); 
+	width: 70%;
+	height: 400px;
+	position: absolute;
+	top: -10px;
+	left: 0;
+	right: 0;
+	margin: auto; 
+}
+
+
+
+
+
+a:link { color:#ffffff; text-decoration:none }
+a:visited { color:#ffffff; text-decoration:none }
+a:hover { color:#666666; text-decoration:none;}
+a:active { color:#ffffff; text-decoration:none }
+
+#backgrpink2{
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,#ffcccc 5%); 
+	width: 70%;
+	height: 5000px;
+	left: 0;
+	right: 0;
+	margin: auto; 
+	position: absolute;
+	top: 700px;
+	padding-top: 200px;
+}
+
+#backgrpink2-1{
+	background-color: #ffcccc;
+}
+
+h2{
+	width: 40%;
+	font-size: 50px;
+	float: left;
+	text-align: right;
+	line-height: 40px;
+	text-transform: uppercase;
+	color: #ffffff;
+
+}
+
+p{
+	width: 40%;
+	float: left;
+	line-height: 20px;
+	margin-top: 30px;
+	margin-bottom: 90px;
+	padding-left: 40px;
+	color: #666666;
+
+
+}
+

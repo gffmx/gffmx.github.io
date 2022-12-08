@@ -1,0 +1,271 @@
+@import 'h5bp/h5bp-head.css';
+@import 'h5bp/normalize.css';
+@import 'h5bp/h5bp-tail.css';
+
+
+
+
+
+@font-face {
+    font-family: 'moonshiner';
+    src: url('../fonts/moonshiner-webfont.eot');
+    src: url('../fonts/moonshiner-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/moonshiner-webfont.woff2') format('woff2'),
+         url('../fonts/moonshiner-webfont.woff') format('woff'),
+         url('../fonts/moonshiner-webfont.ttf') format('truetype'),
+         url('..fonts/moonshiner-webfont.svg#moonshinerround') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'Karla', sans-serif;
+	src: url ("../fonts/karla.ttf");
+}
+
+
+
+
+.top{
+	background: url('../img/whiskey.png') center top no-repeat;
+	background-size: 100%;
+	z-index: -1; 
+	height: 900px;
+	width: 100%;
+}
+
+header {
+	width:1200px;
+	margin: auto;
+}
+
+.content {
+
+}
+
+.peakbar {
+ 
+}
+
+
+
+
+ h1 {
+ color: #a79271;
+	font-family: 'moonshiner' !important;
+	font-size: 200px;
+	font-weight: lighter;
+	text-align: center;
+	display: block;
+	margin: auto;
+  width: 600px;
+
+}
+
+
+.underline { 
+	background : url('../img/underline.png')
+	center top no-repeat;
+	z-index:0;
+	}
+
+ul.navbar {
+    list-style-type: none;
+    padding: 0;
+  font-family: 'Karla', sans-serif;
+    font-size: 24px;
+    text-align: left;
+    width:80px;
+    margin-top: 0px;
+    margin-left: 1265px;
+    padding-top: 50px;
+    height: 80px;
+
+
+}
+
+.navbar li a {
+    display: block;
+    width: 80px;
+}
+
+a:link {
+    color: #a79271;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #a79271;
+}
+
+/* mouse over link */
+a:hover {
+    border-bottom: 2px solid #a79271;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
+
+
+
+
+
+
+.moto {
+	background-color: #ece8df;
+	background-image: url('../img/topographic.png');
+	width:100%;
+  overflow: auto;
+
+}
+
+.superomnia {
+  background-image: url('../img/superomnia.png');
+  background-repeat: no-repeat;
+  z-index: 3;
+  position: relative;
+  height: 200px;
+  background-position: center;
+
+}
+
+.pinkbox {
+	font-family:'karla';
+	text-align: center;
+	color: #324050!important;
+	background-color: white;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	padding-right: 40px;
+	padding-left: 40px;
+  display: block;
+	width: 960px;
+	margin-top: -50px;
+  margin-right: 300px;
+  margin-bottom: 100px;
+  margin-left: 280px;
+	z-index: 1;
+  position: relative;
+
+}
+
+
+
+.bottomboxes {
+  height: 800px;
+  overflow: hidden;
+}
+
+
+.hover1 {
+  background: url('../img/contactus.png') no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  float: left; 
+  width: 33.33%;
+  transition: all 1s ease-out;
+
+}
+
+.contactus {
+  font-family: 'moonshiner';
+  font-size: 64px;
+  border: solid 1px #fff;
+  margin-top: 280px;
+  margin-left: 120px;
+  width: 200px;
+  color: #fff;
+  font-weight: lighter;
+  padding-left: 8px;
+  padding-right: 8px;
+  display: inline-block;
+  text-align: center;
+
+}
+
+.reputation {
+  font-family: 'moonshiner';
+  font-size: 64px;
+  border: solid 1px #fff;
+  margin-top: 280px;
+  margin-left: 120px;
+  width: 200px;
+  color: #fff;
+  font-weight: lighter;
+  padding-left: 12px;
+  padding-right: 8px;
+  display: inline-block;
+  text-align: center;
+
+}
+
+.reservations {
+  font-family: 'moonshiner';
+  font-size: 64px;
+  border: solid 1px #fff;
+  margin-top: 280px;
+  margin-left: 120px;
+  width: 200px;
+  color: #fff;
+  font-weight: lighter;
+  padding-left: 8px;
+  padding-right: 8px;
+  display: inline-block;
+   text-align: center;
+}
+
+.hover1:hover {
+  background-image: url('../img/contactus.png'); 
+  height: 110%;
+  width: 110%;
+  width: 33.33%;
+}
+
+
+.hover2 {
+  background: url('../img/reservations.png') no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: inline-block; 
+  width: 33.33%;
+  transition: all 1s ease-out;
+}
+
+.hover2:hover {
+  background-image: url('../img/reservations.png'); 
+  height: 110%;
+  width: 110%;
+  display: inline-block; 
+  width: 33.33%;
+}
+
+
+.hover3 {
+  background: url('../img/reputation.png') no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  float: right;
+  width: 33.33%;
+  transition: all 1s ease-out;
+}
+
+.hover3:hover {
+  background-image: url('../img/reputation.png'); 
+  height: 110%;
+  width: 110%;
+  float:right;
+  width: 33.33%;
+}
+
+a:hover hover1 {
+    border-bottom: 2px solid #a79271;
+}
+
+

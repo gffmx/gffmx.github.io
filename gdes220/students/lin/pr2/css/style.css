@@ -1,0 +1,401 @@
+@import 'h5bp/h5bp-head.css';
+@import 'h5bp/normalize.css';
+@import 'h5bp/h5bp-tail.css';
+
+body{
+	margin: 0;
+	font-family: 'Segoe UI', sans-serif;
+	background-image: url(../img/fadeup.png), url(../img/ta_cutouts.png), url(../img/background.jpg), url(../img/fadedown2.png), url(../img/footer.jpg);
+	background-color:white;
+	background-size: auto, auto, auto, auto, auto;
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+	background-position: 0px -225px, top, 0px -150px, bottom, bottom;
+}
+
+article {
+	margin: 50px auto;
+}
+
+.container {
+	width:1000px;
+	margin: 0px auto;
+}
+
+.navbar {
+	font-family: 'Hind Vadodara';
+	margin-left:55%;
+	width:45%;
+	height:25px;
+	line-height:35px;
+	background-color:orange;
+	text-transform:uppercase;
+	vertical-align: bottom;
+
+}
+
+
+.navbar ul {
+	display:inline-block;
+	list-style-type: none;	
+	padding-left:25px;
+	padding-top:2px;
+	margin:0px;
+
+}
+
+.navbar li {
+	display:inline-block;
+	width: 100px;
+	margin:0px;
+	text-align:center;
+	position:relative;
+}
+
+.navbar a {
+	text-decoration: none;
+    width:105px;
+
+    margin:0px;
+    position:relative;
+}
+
+.navbar a:after {
+	display:inline-block;
+	position:absolute;
+	left:0; 
+	top:-7px;
+ 	width: 0;
+  	height: 7px;
+  	background-color: white;
+  	content: "";
+  	transition: width 0.2s;
+}
+
+.navbar a:link {
+	color:#FFDB99;
+}
+
+.navbar a:visited {
+	color:#FFDB99;
+}
+
+.navbar a:hover {
+	color:white;
+}
+
+.navbar a:hover:after {
+	width:100%;
+}
+
+.navbar #index, .navbar #about, .navbar #contact, .navbar #shop {
+	border-width: 7px;
+	border-color: white;
+	border-top-style:solid;
+}
+
+li {
+	margin-left:50px;
+}
+
+.banner {
+	margin-bottom:10px;
+	margin-left:50%;
+	width:50%;
+	height:25px;
+	line-height:35px;
+	background-color:yellow;
+	text-transform:uppercase;
+	vertical-align: bottom;
+	font-family: 'Hind Vadodara', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.banner2 {
+	margin-bottom:20px;
+	padding-left:20px;
+	width:540px;
+	height:50px;
+	background-color:yellow;
+	text-transform:uppercase;
+	vertical-align: bottom;
+	font-family: 'Hind Vadodara', sans-serif;
+	font-weight: 700;
+	font-size:30px;
+	text-align:left;
+}
+
+.headline {
+	margin-left: 20px;
+	font-family: 'Hind Vadodara', sans-serif;
+}
+
+.epitext {
+	display:inline-block;
+	margin-left:50px;
+	width:350px;
+	vertical-align: top;
+}
+
+#entry a:link {
+	text-decoration: none;
+	color:black;
+	position:relative;
+	transition-duration:0.2s;
+	border-top:1px solid black;
+}
+
+#entry a:after {
+	display:inline-block;
+	position:absolute;
+	left:0;
+	top:0;
+	width:0;
+	height: 2px;
+	background-color:yellow;
+	border:none;
+	content: "";
+	transition: width 0.5s;
+}
+
+#entry a:hover {
+	color:black;
+	border:none;
+}
+
+#entry a:hover:after {
+	width:100%;
+	border:none;
+}
+
+#entry a:visited {
+	color:black;
+}
+
+
+.epitext h2{
+	margin-top:0;
+	margin-bottom:0;
+}
+
+.epitext h3{
+	margin-top:0;
+}
+
+.previously {
+	padding: 50px 20px;
+	height:450px;
+}
+
+.previously div {
+	display:inline-block;
+	width:300px;
+	margin: 0px;
+}
+
+.previously #epi1 {
+	margin-left:32px;
+}
+
+.sub h2 {
+	font-weight:300;
+	text-align:right;
+	padding-right:300px;
+	margin-bottom:50px;
+}
+
+#entry {
+	display:inline-block;
+	width:500px;
+	margin-left: 150px;
+	vertical-align: top;
+}
+
+
+footer {
+	font-size:11px;
+	width:100%;
+	padding-bottom:25px;
+}
+
+#footertext p {
+	display:block;
+	width:800px;
+	margin: 20px auto 0;
+}
+
+div #bio, div #jump, div .button, div #display {
+	display:inline-block;
+}
+
+div #jump, div #display {
+	vertical-align: top;
+}
+
+div #bio p {
+	width:500px;
+	margin-left:50px;
+}
+
+.feature #bio h2, .feature #bio h3 {
+	margin: 0 auto;
+	width:500px;
+}
+
+.feature div#bio {
+	width:300px;
+	margin-left:50px;
+}	
+
+.feature div#bio p{
+	margin-left:0;
+}
+
+#bio form {
+	margin-top:15px;
+}
+
+#disclaimer {
+	font-size:12px;
+}
+
+form .button {
+	width:500px;
+	height:40px;
+	margin:25px 0;
+	padding-top: 20px;
+}
+
+.button {
+	position:relative;
+	color:white;
+	display:inline-block;
+	width:170px;
+	height:50px;
+	padding-top: 25px;
+	margin:30px 0 0 20px;
+	background-color:orange;
+	text-transform:uppercase;
+	text-decoration: none;
+	text-align: center;
+	font-size:18px;
+	color:#FFDB99;
+	vertical-align: middle;
+}
+
+.button:after {
+	display:inline-block;
+	position:absolute;
+	left:0; 
+	top:0;
+  width: 0;
+  height: 10px;
+  background-color: yellow;
+  color:white;
+  content: "";
+  transition: width 0.2s;
+}
+
+.button:hover {
+  color: #ffffff;
+}
+.button:hover:after {
+  width: 100%;
+  color:#ffffff;
+}
+
+.side .button {
+	margin:10px auto;
+}
+
+input[type=text], textarea {
+	width: 500px;
+	padding: 20px;
+	margin-top:5px;
+	box-sizing: border-box;
+	border: none;
+	border-top-color:yellow;
+	background-color:#FFDB99;
+	transition: 0.5s;
+}
+
+input[type=text]:focus, textarea:focus {
+	outline: none;
+	border: none;
+	border-top: 10px solid yellow;
+}
+
+input[type=radio] {
+	margin-left: 50px;
+}
+
+.form, .side {
+	display:inline-block;
+	vertical-align: top;
+}
+
+.form {
+	width:500px;
+}
+
+.side {
+	width:350px;
+	margin-left:100px;
+}
+
+.side .button {
+	text-align:center;
+}
+
+/*Shop Page*/
+#display {
+	width:425px;
+	height:490px;
+	padding: 20px 20px;
+	background-color:black;
+	color:white;
+}
+
+#display img {
+	width:100%;
+	margin:auto;
+}
+
+figcaption {
+	font-size:12px;
+	font-family:'Segoe UI';
+	width:350px;
+	margin:10px auto;
+}
+
+.feature #bio a {
+	margin-left:0;
+}
+
+#advertisement {
+	display:inline-block;
+	width:250px;
+}
+
+/*footer*/
+
+#footernav {
+	font-size:16px;
+}
+
+/*BG IMG*/
+div #outerwrap {
+	position:relative;
+	width:100%;
+	height:100%;
+	margin: 0;
+	padding: 0;
+}
+
+#outerwrap img {
+	position:absolute;
+	top:950px;
+	right:0;
+	width:100%;
+	z-index: -1;
+}

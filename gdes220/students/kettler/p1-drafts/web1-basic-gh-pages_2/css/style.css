@@ -1,0 +1,70 @@
+@import 'h5bp/h5bp-head.css';
+@import 'h5bp/normalize.css';
+@import 'h5bp/h5bp-tail.css';
+
+/* 
+
+	Put typographic formatting in the typography.css file.
+	Page layout styles go in layout.css.
+
+	In production, do not use imports.
+	Instead, concatenante and minify files. 
+
+*/
+body{
+    
+    background-image: url("../img/snow_subtlepattern.png");
+    background-repeat: repeat;
+    padding: 400px;
+  }
+
+.space{
+    width: 600px;
+    margin: auto;
+  }
+
+  .top-image {
+    width: 100%;
+    margin: auto;
+  }
+
+
+
+ 	 h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+	h2 {
+  font-family: 'Fira sans hair', sans-serif;
+}
+	h3 {
+  font-family: 'Raleway Thin', sans-serif;
+}
+
+P { font-family: 'open sans', sans-serif; 
+}
+
+(change link propreties)
+
+ a:link {
+    color: #191970;
+    text-decoration: none;
+}
+a:visited {
+    color: #00FFFF;
+    text-decoration: none;
+}
+a:hover {
+    color: #800080;
+    text-decoration: none;
+}
+a:active {
+    color: #DC143C;
+    text-decoration: none;
+}
+}
+
+
+(how to fix repeating snow background) 
+imput all wiki links 
+
+

@@ -1,0 +1,10 @@
+/*Background Image for Index Page*/
+
+
+body{
+	background-image: url(../img/graph.jpg);
+	background-color:white;
+	background-size: auto;
+	background-repeat: repeat-x;
+	background-position: 0px 950px;
+}

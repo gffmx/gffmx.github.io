@@ -1,0 +1,71 @@
+body{
+ margin:0%; 
+ padding:0%;
+
+}
+
+.panelCon{
+    position: static; /*needs to be fixed so it starts at the bottom*/
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    
+}	
+  
+.panel {
+    width: 100%;
+    height: 805px;
+
+
+}
+
+.panel h1  {
+    width: 100px;
+    height: 100px;
+    float: right;
+    position: relative;
+    left: 25px;
+    bottom: 1px;
+    color: white;
+
+    
+
+}
+
+ #space{
+  background-color: #000000;
+
+}
+
+ #floor5 {
+  background-color: #0D0F24;
+}
+
+ #floor4 {
+  background-color: #16193B;
+}
+
+ #floor3 {
+  background-color: #35478C;
+}
+
+ #floor2 {
+  background-color: #4E7AC7;
+}
+
+ #floor1 {
+  background-color: #7FB2F0;
+}
+
+#lobby {
+  background-color: #ADD5F7;
+  width:100px;
+  padding-left:20%;
+  font color: white;
+}
+}
+
+
+    
+    

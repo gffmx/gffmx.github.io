@@ -1,0 +1,92 @@
+body{
+    width:100%;
+    margin: auto;
+
+}
+.container {
+    width:100%;
+    margin: 0 auto;
+    
+}
+.header {
+    background:#000000;
+    width: 100%;
+    top: 0;
+    position: fixed;
+
+}
+.logo{
+    float: left;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+
+}
+
+li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+    text-decoration: none;
+    float: left;
+    margin-left: 15px;   ----- does the nav
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  padding-left: 18px;
+    letter-spacing: 2px;
+    padding-right: 40px;
+}
+
+.nav{
+    float:right;
+}
+
+#What{
+   text-decoration: none;
+   color: #ffffff;
+  -o-transition:color .2s ease-out, background 3s ease-in;
+  -ms-transition:color .2s ease-out, background 3s ease-in;
+  -moz-transition:color .2s ease-out, background 3s ease-in;
+  -webkit-transition:color .2s ease-out, background 3s ease-in;
+  transition:color .2s ease-out, background 3s ease-in;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+#What:hover { color:#FA0094;
+}
+
+
+#Magic{
+   text-decoration: none;
+   color: #ffffff;
+  -o-transition:color .2s ease-out, background 3s ease-in;
+  -ms-transition:color .2s ease-out, background 3s ease-in;
+  -moz-transition:color .2s ease-out, background 3s ease-in;
+  -webkit-transition:color .2s ease-out, background 3s ease-in;
+  transition:color .2s ease-out, background 3s ease-in;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+#Magic:hover { color:#FEFF00;
+
+
+}
+
+#Hello{
+   text-decoration: none;
+   color: #ffffff;
+  -o-transition:color .2s ease-out, background 3s ease-in;
+  -ms-transition:color .2s ease-out, background 3s ease-in;
+  -moz-transition:color .2s ease-out, background 3s ease-in;
+  -webkit-transition:color .2s ease-out, background 3s ease-in;
+  transition:color .2s ease-out, background 3s ease-in;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+#Hello:hover { color:#00B9D3;
+
+
+}
+
+

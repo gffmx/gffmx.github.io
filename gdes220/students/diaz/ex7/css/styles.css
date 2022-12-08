@@ -1,0 +1,97 @@
+body {
+	color: #FFA500;
+	font-family: Arial, Verdana, sans-serif;
+	background-image: url("symphony.png");
+	text-align: left;
+	font-family: 'Poiret One', cursive;
+}
+
+h2, h3{
+	color: #FFB90F;
+	font-family: Verdana, Arial, sans-serif;}
+
+a:link {
+	color: #FFA500;
+}
+a:visited {
+	color: #FFB90F;
+	font-style: italic;
+}
+a:hover {
+	color: #EEAD0E;
+	font-weight: bolder;
+	
+}
+a:active {
+	color:#FFA500 ;
+	font-weight: bold;
+	font-size: 120%
+}
+ul {
+	list-style-type: circle;
+}
+ol {
+	list-style-type: lower-latin;
+}
+
+.border {
+	background: transparent;
+	padding:10px;
+	border: 2px solid #999999;
+}
+.title {
+	text-transform: uppercase; 
+	font-size:90%;
+}
+.digits {
+	background-color: #FFFAF0;
+}
+.bold {
+	font-weight: bolder;
+}
+#time {
+	color: #FFC125;
+	font-style: italic;
+}
+table.center {
+	margin-left: auto;
+	margin-right:auto;
+}
+.center {
+	text-align: center;
+}
+
+section {
+	margin-right: 200px;
+	margin-left: 200px;
+	padding-top: 40px;
+
+}
+article {
+	margin-bottom: 50px;
+	margin-top: 100px;
+	padding-top: 0px;
+	margin-left: 400px;
+	height: 100%;
+	width: 100%
+
+}
+
+header{
+	background-image: url("swirl_pattern.png");
+	padding: 30px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.nutrition {
+	background-color: #F6CECE;
+	margin-top: 50px;
+	padding-top: 30px;
+	margin-bottom: 10px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 200px;
+	height: 350px;
+}

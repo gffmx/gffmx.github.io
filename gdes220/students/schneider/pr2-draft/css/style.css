@@ -1,0 +1,30 @@
+body#background {
+  background: url('background.png') no-repeat fixed; 
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -225px; /* Half the height */
+  margin-left: -250px; /* Half the width */
+}
+
+a:hover:before {
+  position: absolute;
+  content: '';
+  display: block;
+  background-image:url(Main_Ads.gif);
+  width: 444px;
+  height: 444px;
+
+
+ 
+
+
+
+     

@@ -1,0 +1,98 @@
+body {
+  color:#ffffff;
+  font-family: Raleway, Tahoma, Geneva, sans-serif;
+  font-weight:200;
+  background-color:#ff9900;
+  width:550px;
+  margin:auto;
+  padding-top:200px;
+  padding-bottom:50px;
+  line-height:110%;
+}
+
+h1{
+  text-transform:uppercase;
+  letter-spacing:0px;
+  text-align:center;
+  font-family:Raleway;
+  font-weight: 200;
+  display:inline;
+}
+
+h2 {
+  color:#ffffff;
+  text-align:left;
+  font-size:36px;
+  letter-spacing:-1px;
+  margin-bottom:-10px;
+}
+
+h3 {
+  color:#ffffff;
+  text-align:left;
+  font-size:36px;
+  letter-spacing:-1px;
+  font-weight: 300;
+  margin-bottom:-15px;
+  line-height:80%;
+}
+
+#header{
+  margin-top:-200px;
+  position:fixed;
+}
+
+#image1{
+  margin-left:0px;
+  display:inline;
+}
+
+#image2{
+  margin-left:-13px;
+  display:inline;
+}
+
+#image3{
+  margin-left:-15px;
+  display:inline;
+}
+
+#image4{
+  margin-left:-25px;
+  display:inline;
+}
+
+#image5{
+  margin-left:-20px;
+  display:inline;
+}
+
+#image6{
+  margin-left:-10px;
+  display:inline;
+}
+
+a:link {
+  color:#E9E9E9;
+}
+
+a:visited {
+  color:#BCBCBC;
+}
+
+a:hover {
+  color:#3299BB;
+}
+
+a:active {
+  color:#424242;
+}
+
+table,th,td{
+  border-collapse:collapse;
+  border:1px solid;
+  padding:20px;
+  background:#ffffff;
+  width:500px;
+  margin:auto;
+}

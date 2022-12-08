@@ -1,0 +1,103 @@
+@import 'h5bp/h5bp-head.css';
+@import 'h5bp/normalize.css';
+@import 'h5bp/h5bp-tail.css';
+.clearfix {overflow:auto;
+}
+main{ widith:100%;
+margin:auto;
+align-items:center;
+}
+footer {
+	margin: auto;
+	width: 100%;
+	background-color: red;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	
+}
+
+#lemmesayonething {
+	padding-left: 250px;
+	padding-top:250px;
+	padding-bottom:250px;
+	background-image:url(../img/question-mark2.gif);
+}
+#video {float:inherit}
+#googlegif{flow:right;
+Position:absolute
+}
+#mybutton{ background-image:url(../buttons/alien.png);
+padding-top:50px;
+	padding-right:320px;
+	padding-bottom:60px;
+	padding-left:190px;
+}
+.footer-text {
+	color: white;
+	margin: auto;
+	width: 800px;
+	font-size: 10pt;
+	background-image:url(../img/backatitagainwiththewhitevans.png);
+}
+body{
+	background-color: #f7ffff;
+	widith: 500px;
+}
+p {
+	margin: 0 0 0px;
+	text-align: justify;
+}
+#astley{float:right;
+clear:right;
+align-content:right;
+padding-left:300px;
+}
+.thisis {align-content:center;
+}
+#container {padding-right:600px;
+			background-image:url(../img/Ihavehearditallbefore.gif);
+			position:inline; background: transparent; margin: 0 auto; text-align: justify; width: 800px;
+}
+#container h3 { font-size: 110%; font-weight: bold; margin-bottom: 10px; margin-top: 30px; margin-left: 30px;
+}
+#Text{
+	margin: 0 205px 0 0;
+	background-color: transparent;
+	padding-top: 20px;
+}
+#lowertext{
+	margin: 0 205px 0 0;
+	background-color: transparent;
+	padding-top: 20px;
+	margin-left:30px;
+}
+#Text p { margin: 0 20px 15px 20px; }
+
+#1 h3 { height: 60px; margin: 0; padding: 0; }
+#1 h3 span { margin: 0; padding: 20px; }
+#img1 {float:right;
+}
+#1{color: blue;
+}
+#Torso{background-color:red;
+color:#ffffff;
+}
+#2 h3 { height: 60px; margin: 0; padding: 0; }
+#2 h3 span { margin: 0; padding: 10px; }
+#earth{ color:#ffffff;
+background-color:red;
+}
+
+#3 h3 { height: 60px; margin: 0; padding: 0; }
+#3 h3 span { margin: 0; padding: 20px; }
+#google{color:#ffffff;
+	background-color:red;
+}
+#4 h3 { height:60 px;margin: 0; padding: 0; }
+#4 h3 span { margin: 0; padding: 20px; }
+
+#solvingthemystery {size: 300px,300px;
+	padding-left: 200px;
+}
+#solvingthemystery{height:100px, 300px
+}

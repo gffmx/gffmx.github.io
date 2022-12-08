@@ -1,0 +1,271 @@
+ .wrapper, h1, .grid1 {
+	margin: auto;
+	width: 1080px
+	}
+p   {
+	font-family: "baskerville-urw", serif;
+	font-size: 15px;
+	}	
+h1	{
+	font-family: "gills sans", "ARIAL BLACK", sans-serif;
+	font-size: 80px;
+	margin-left: 75px;
+	margin-right: auto;
+	text-decoration: underline;
+	color: #BD2C44;
+	}
+
+a:hover {
+	color: #C86B7A;
+		}
+
+a:visited{
+	color: #8A2032;
+	text-decoration: none;
+		}
+a   	{
+	color: #BD2C44;
+	text-decoration: none;
+		}
+blockquote{
+	color: #8A2032;
+	font-size: 18px;
+	}
+h2	{
+	font-family: "gill sans";
+	font-size: 50px;
+	color: #FFFFFF;
+	text-align: middle;
+	letter-spacing: 10px;
+	padding: 3px;
+	}
+h3	{
+	font-family: "gill sans";
+	font-size: 20px;
+	}
+h4	{
+	display: inline-block;
+	font-color: #BD2C44;
+	font-family: "baskerville-urw", "Arial black", serif;
+	width: 85px;
+	text-align: justify;
+	margin-left: 75px;
+	margin-right: auto;
+	}
+em, .name {
+	color: #BD2C44 !important;
+		}
+.name	{
+	display: inline;
+		}
+.first	{
+	font-family: "gill sans";
+	font-weight: bold;
+	font-size: 50px;
+	color: #FFFFFF;
+	letter-spacing: 20px;
+	padding: 5px;
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+		}
+.second	{
+	font-family: "baskerville-urw";
+	color: #FFFFFF;
+		}
+#intro {
+	font-family: "gill sans";
+	font-size: 120px;
+	font-color: #000000;
+	padding: 50px;
+	width: 1250px;
+	height: 650px;
+	margin-bottom: 50px;
+		}
+p #intro {
+	outline-style: dashed;
+	outline-color: #000000
+	}
+.invisible{
+	color: #EBEAE9;
+	display: inline;
+}
+.invisible:hover{
+	color: #2E3133;
+}
+#chunk1 {
+	width: 480px;
+	display: block;
+	float: left;
+	text-align: justify;
+	margin-top: 50px;
+	margin-right: 25px;
+		}
+#chunk2 {
+	width: 480px;
+	margin-top: 50px;
+	float: left;
+	display: block;
+	text-align: justify;
+	margin-left: 25px;
+	}
+.img1 {
+	margin-top: 600px;
+	margin-bottom: 600px;
+	}
+.img2 {
+	margin-top: 600px;
+	margin-bottom: 600px;
+	}
+.russian, .metaphysical, .mereological, .epistemological, .moral, .existential
+	{
+	padding: 25px;
+	width: 250px;
+	height: 250px;
+	font-color: #FFFFFF;
+	float: left;
+	display: block;
+	font: "gill sans", sans-serif;
+	text-align: justify;
+	}
+.russian{
+	background-color: #0A1738;
+	}
+.metaphysical
+	{
+	background-color: #24408E;
+	}
+.mereological
+	{
+	background-color: #4F74CD;
+	}
+.epistemological
+	{
+	background-color: #4F74CD;
+	}
+.moral
+	{
+	background-color: #0A1738;
+	}
+.existential
+	{
+	background-color: #24408E;
+	}
+#chunk3 {
+	width: 1080px;
+	display: block;
+	float: left;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 115px;
+		}
+#dada, #lit, #music, #film	{
+	width: 224px;
+	height: 224px;
+	letter-spacing: 22px;
+	font-family: "gill sans", sans-serif;
+	float: left;
+	font-weight: bold;
+	font-size: 50px;
+	color: #FFFFFF;
+	letter-spacing: 20px;
+	padding: 5px;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+
+		}
+#dada	{
+	background-color: #0A1738;
+		}
+#lit 	{
+	background-color: #4F74CD;
+		}
+#music 	{
+	background-color: #24408E;
+		}
+#film 	{
+	background-color: #0A1738;
+		}
+.dada, .lit, .music, .film	{
+	width: 200px;
+	margin: 10px;
+	height: auto;
+	float: left;
+		}
+#reg-img{
+	float: left;
+	/*position-bottom: 500px;*/
+		}
+.column-img
+	{
+	width: 200px !important;
+	height: 200px !important;
+	display: inline-block;
+	}
+.reg-img{
+	height: 291px;
+	width: 500px;
+	margin-top: 500px;
+	margin-right: 100px;
+	margin-bottom: 500px;
+	display: inline-block;
+	}	
+hr {
+	color: #BD2C44;
+	}
+blockquote {
+	font-color: #0A1738;
+		}
+#undertext
+	{
+	display: block;
+	float: left;
+	height: 300px;
+	width: 300px;
+	}
+footer {
+	width: 1080px;
+	float: left;
+	margin-top: 50px;
+	background-width: 100%;
+	background-color: #BD2C44;
+	padding: 0px 400px 0px 400px;
+	}
+footer p {
+	background-color: #FFFFFF;
+	color: #24408E;
+	width: 125px;
+	height: auto;
+	text-align: center;
+	padding: 15px;
+	margin-left: 250px;
+	border-radius: 8px;
+	}
+
+    /* Hide the second piece of text by default */
+    p.hovertext .second {
+         display:none;
+    }
+
+    /* Hide the first piece of text on hover */
+    p.hovertext:hover .first {
+         display:none;
+    }
+
+    /* Re-show the second piece of text on hover */
+
+    p.hovertext:hover .second {
+        display:inline;
+    }
+
+/*
+red #BD2C44
+prime blue #24408E
+light blue #4F74CD
+dark blue #0A1738
+grey: #2E3133;
+	<a href="#russian" class="button">Read more, if you want. It doesn't matter anyway</a>
+gills sans & baskerville urw
+/*

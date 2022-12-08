@@ -1,0 +1,42 @@
+body{
+	padding: 100;
+  	margin-bottom:10px;
+  	font-family: "Helvetica Neue","Palatino","Arial"; 
+  	background-image: url("foodbackround.png");
+    color: #5C2C16;
+cursor:url(http://www.picgifs.com/cursors/food-and-drinks/cake/animaatjes_cake_icon11.gif), auto;
+}
+
+a:link {color:#5C2C16;}
+a:visited {color:#ffffff;}
+a:hover{color: #C88C34;
+  font-size: 1.08em;}
+}
+
+
+a:hover { color: #b23c3c;}
+table {
+  width: 450px;}
+th, td {
+  padding: 5px 8px 8px 8px;}
+th {
+  text-transform: uppercase;
+  border-bottom: 2px solid #111111;
+  border-top: 1px solid #999;
+  text-align: left;}
+tr.even {
+  background-color: #efefef;}
+tr:hover {
+  background-color: #c3e6e5;}
+.money {
+  text-align: right;}
+
+  test {
+    background:gray;
+    width:200px;
+    height:200px;
+
+}
+
+
+

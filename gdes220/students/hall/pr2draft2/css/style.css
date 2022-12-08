@@ -1,0 +1,151 @@
+@import 'h5bp/h5bp-head.css';
+@import 'h5bp/normalize.css';
+@import 'h5bp/h5bp-tail.css';
+
+/* 
+ 
+	Put typographic formatting in the typography.css file.
+	Page layout styles go in layout.css.
+
+	In production, do not use imports.
+	Instead, concatenante and minify files. 
+
+*/
+
+body {
+	background-color: #555557;
+
+}
+
+.header {
+	background-color: #969698;
+}
+
+.title {
+	width: 900px;
+	margin: auto;
+}
+
+
+.gnb {
+	color: #E6E8E7;
+	font-size: 120px;
+	text-align: center;
+	font-family: 'Cardo', serif;
+	margin: -10px;
+}
+
+.gol {
+	color: #A4C8D6;
+	font: helvetica;
+	letter-spacing: 5px;
+	text-align: center;
+	margin: auto auto 30px;
+}
+
+.line {
+	width: 800px;
+	height: 5px;
+	background-color: #E6E8E7;
+	margin: auto 60px;
+}
+
+nav {
+	margin: auto 90px;
+}
+
+li {
+	display: inline;
+	margin: auto 40px;
+	font-size: 18px;
+	letter-spacing: 3px;
+
+}
+
+a:link {
+	color: #E6E8E7;
+	text-decoration: none;
+}
+
+a:active {
+	color: #E6E8E7;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #E6E8E7;
+	text-decoration: none;
+}
+
+.cover {
+	width: 950px;
+	margin: auto;
+}
+
+.card {
+	width: 1010px;
+}
+
+.slogan {
+	position: absolute;
+	top: 450px;
+	left: 300px;
+	font-size: 30px;
+}
+
+.woman {
+	width: 350px;
+}
+
+.man {
+	width: 350px;
+}
+
+.tower {
+	width: 500px;
+	position: relative;
+	float: right;
+	right: 170px;
+	bottom: 250px;
+}
+
+p {
+	color: #E8E8EA;
+	font-family: 'Cardo', serif
+}
+
+h2 {
+	color: #E6E8E7;
+}
+
+.history {
+}
+
+.about {
+	position: relative;
+	width: 400px;
+	padding: 50px 200px;
+}
+
+.arthur {
+	width: 400px;
+}
+
+.barney {
+	width: 400px;
+}
+
+.marshall {
+	width: 400px;
+}
+
+form {
+	margin: 50px 500px;
+}
+
+footer {
+	background-color: #969698;
+	padding: 90px;
+	letter-spacing: 4px;
+	text-align: center;
+}

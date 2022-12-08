@@ -1,0 +1,112 @@
+
+@import 'h5bp/h5bp-head.css';
+@import 'h5bp/normalize.css';
+@import 'h5bp/h5bp-tail.css';
+
+
+
+
+@font-face {
+    font-family: 'moonshiner';
+    src: url('../fonts/moonshiner-webfont.eot');
+    src: url('../fonts/moonshiner-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/moonshiner-webfont.woff2') format('woff2'),
+         url('../fonts/moonshiner-webfont.woff') format('woff'),
+         url('../fonts/moonshiner-webfont.ttf') format('truetype'),
+         url('..fonts/moonshiner-webfont.svg#moonshinerround') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Karla', sans-serif;
+    src: url('../fonts/karla.ttf');
+}
+
+ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+    text-align: left;
+    width:80px;
+    margin-top: 0px;
+    margin-left: 1265px;
+    padding-top: 50px;
+    height: 50px;
+
+}
+
+.navbar li a {
+    display: block;
+    width: 80px;
+}
+
+a:link {
+    color: #a79271;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #a79271;
+}
+
+/* mouse over link */
+a:hover {
+    border-bottom: 2px solid #a79271;
+}
+
+/* selected link */
+a:active {
+    border color: #a79271;
+    color: white;
+}   
+
+
+.content {
+   
+    background-size: 100%;
+    display: inline-block;
+    z-index: -1; 
+    width: 1450px;
+}
+
+body {
+    min-width: 320px;
+    color: #a79271;
+    font-family: 'Source Serif Pro', serif;
+    width: 100%;
+    display: inline-block;
+    margin: 0px;
+    height: 800px;
+     background: url('../img/etiquette.png') center top no-repeat;
+}
+
+.therules {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    width: 400px;
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: -10px;
+    line-height: 1;
+    text-transform: uppercase;
+
+
+}
+
+h1 {
+    font-family: moonshiner;
+    font-size: 80px;
+    margin-left:56px;
+    font-weight: lighter;
+    margin-bottom: 0px;
+    font-weight: lighter;
+    margin-top: -90px;
+
+}
+
+
+
+

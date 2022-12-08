@@ -1,0 +1,434 @@
+@import 'h5bp/h5bp-head.css';
+@import 'h5bp/normalize.css';
+@import 'h5bp/h5bp-tail.css';
+
+/* 
+ 
+	Put typographic formatting in the typography.css file.
+	Page layout styles go in layout.css.
+
+	In production, do not use imports.
+	Instead, concatenante and minify files. 
+
+*/
+
+body {
+	background-color: #555557;
+	width: 100%;
+}
+
+header {
+	background-color: #969698;
+	width: 100%;
+	margin: auto;
+}
+
+.title {
+	width: 900px;
+	margin: auto;
+	background-color: #969698;
+}
+
+
+.gnb {
+	color: #E6E8E7;
+	font-size: 125px;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 0px auto -10px;
+}
+
+.gol {
+	color: #A4C8D6;
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 5px;
+	text-align: center;
+	margin: auto auto 30px;
+}
+
+.line {
+	width: 900px;
+	height: 5px;
+	background-color: #E6E8E7;
+	margin: auto;
+}
+
+nav {
+	margin: auto;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+li {
+	display: inline;
+	margin: auto 57px;
+	font-size: 19px;
+	letter-spacing: 3.5px;
+}
+
+a:link {
+	color: #E6E8E7;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	border-bottom: 3px;
+	border-color: #A4C8D6;
+	border-style: solid;
+	border-top: transparent;
+	border-left: transparent;
+	border-right: transparent;
+}
+
+a:visited {
+	color: #E6E8E7;
+	text-decoration: none;
+}
+
+.cover {
+	width: 950px;
+	margin: auto;
+}
+
+.card {
+	width: 950px;
+	margin: auto;
+}
+
+.slogan {
+	color: #FFFFFF;
+	font-size: 30px;
+	letter-spacing: 5px;
+	width: 600px;
+	margin: -230px 195px;
+	text-align: center;
+	text-shadow: 0px 5px 5px rgba(0,0,0,0.1),
+                 5px 5px 5px rgba(0,0,0,0.05),
+                 -5px 5px 5px rgba(0,0,0,0.05);
+}
+
+h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #E6E8E7;
+	width: 900px;
+	letter-spacing: 5px;
+}
+
+.homebody {
+	width: 950px;
+	margin: auto auto -40px;
+}
+
+.kathytalk {
+	margin: 590px auto 150px;
+}
+
+.woman {
+	width: 450px;
+	height: 290px;
+	margin: -50px auto;
+	float: right;
+	display: inline-block;
+}
+
+.kathy {
+	width: 450px;
+	font-size: 25px;
+}
+
+.k {
+	width: 300px;
+	margin: -10px 350px;
+	font-size: 25px;
+}
+
+.man {
+	width: 450px;
+	height: 270px;
+	margin: 150px auto 250px;
+}
+
+.willtalk {
+	margin: 150px 20px 0px;
+	float: right;
+	display: inline-block;
+}
+
+.will {
+	width: 420px;
+	font-size: 25px;
+}
+
+.w {
+	width: 100px;
+	font-size: 25px;
+	display: inline-block;
+	float: right;
+	margin: 10px auto;
+}
+
+p {
+	color: #E8E8EA;
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 1px;
+}
+
+.aboutbody {
+	width: 900px;
+	margin: auto;
+}
+
+h2.hist {
+	margin: 100px 20px -110px;
+}
+
+.history {
+	margin: auto;
+	font-size: 20px;
+}
+
+.about {
+	width: 400px;
+	margin: 70px 0px;
+	padding: 60px 460px 75px 20px;
+	font-size: 16px;
+	line-height: 35px;
+}
+
+.tower {
+	width: 440px;
+	height: 280px;
+	margin: -280px 435px;
+	float: left;
+	display: inline-block;
+}
+
+h2.mana {
+	margin: -20px 20px;
+}
+
+.emp {
+	width: 820px;
+	margin: 40px 0px 180px 15px;
+	padding: 30px;
+	border-style: solid;
+	border-color: #E6E8E7;
+}
+
+.arthur {
+	width: 380px;
+	height: 240px;
+	margin: auto;
+}
+
+.abta {
+	width: 420px;
+	margin: 55px auto;
+	float: right;
+	display: inline-block;
+	font-size: 18px;
+	line-height: 35px;
+}
+
+.barney {
+	width: 380px;
+	height: 240px;
+	margin: 70px auto;
+}
+
+.abtb {
+	width: 420px;
+	margin: -240px auto;
+	float: right;
+	display: inline-block;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.marshall {
+	width: 380px;
+	height: 240px;
+	margin: auto;
+}
+
+.abtm {
+	width: 420px;
+	margin: 50px auto;
+	float: right;
+	display: inline-block;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+h3 {
+	color: #FFFFFF;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 25px;
+	margin: 15px auto -10px;
+}
+
+.cardbody {
+	width: 850px;
+	margin: auto auto 200px;
+}
+
+h2.car {
+	width: 200px;
+	margin: 80px 0px 60px;
+}
+
+.bl {
+	margin: -30px auto auto;
+	padding: 50px;
+	border-style: solid;
+	border-color: #E6E8E7;
+}
+
+.blue {
+	width: 350px;
+	margin: auto;
+	display: inline-block;
+}
+
+.bluec {
+	width: 350px;
+	float: right;
+	margin: auto;
+	font-size: 18px;
+}
+
+.h {
+	float: right;
+	margin: auto 25px;
+}
+
+.yel {
+	padding: 50px;
+	border-style: solid;
+	border-color: #E6E8E7;
+}
+
+.yellow {
+	width: 350px;
+	margin: auto;
+	display: inline-block;
+}
+
+.yellowc {
+	width: 350px;
+	float: right;
+	margin: auto;
+	font-size: 18px;
+}
+
+.r {
+	float: right;
+	margin: auto 25px;
+}
+
+.re {
+	padding: 50px;
+	border-style: solid;
+	border-color: #E6E8E7;
+}
+
+.red {
+	width: 350px;
+	margin: auto;
+	display: inline-block;
+}
+
+.redc {
+	width: 350px;
+	float: right;
+	margin: auto;
+	font-size: 18px;
+}
+
+.m {
+	float: right;
+	margin: auto 25px;
+}
+
+.formbody {
+	width: 950px;
+	margin: auto;
+}
+
+.sign {
+	width: 850px;
+	margin: 100px auto -40px;
+}
+
+form {
+	width: 300px;
+	padding: 40px 40px 45px 30px;
+	margin: 40px 50px 40px;
+	border-style: solid;
+	border-color: #E6E8E7;
+	float: left;
+}
+
+label {
+	color: #969698;
+	font-size: 19px;
+	font: helvetica;
+}
+
+.button {
+	color: #FFFFFF;
+	background-color: #009FFF;
+	width: 100px;
+	margin: 30px auto;
+	font: helvetica;
+	border-color: #A4C8D6;
+	border-radius: 6px;
+}
+
+.for {
+	font-size: 12px;
+	margin: 15px auto auto auto;
+	padding-bottom: 20px;
+}
+
+.for a:hover {
+	text-decoration: none;
+	border-style: none;
+	border-top: transparent;
+	border-left: transparent;
+	border-right: transparent;
+}
+
+.final {
+	width: 500px;
+}
+
+.couple {
+	width: 450px;
+	margin: -270px -405px;
+	float: right;
+	display: inline-block;
+}
+
+p.lquote {
+	width: 480px;
+	margin: 225px 400px;
+	font-size: 14px;
+}
+
+p.jp {
+	width: 110px;
+	margin: -220px -400px;
+	float: right;
+	font-size: 15px;
+}
+
+footer {
+	background-color: #969698;
+	padding: 90px;
+	letter-spacing: 13px;
+	font-size: 17px;
+	text-align: center;
+	margin: auto;
+
+}

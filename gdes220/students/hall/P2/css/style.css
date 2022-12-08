@@ -1,0 +1,346 @@
+@import 'h5bp/h5bp-head.css';
+@import 'h5bp/normalize.css';
+@import 'h5bp/h5bp-tail.css';
+
+/* 
+ 
+	Put typographic formatting in the typography.css file.
+	Page layout styles go in layout.css.
+
+	In production, do not use imports.
+	Instead, concatenante and minify files. 
+
+*/
+
+body {
+	background-color: #555557;
+	width: 100%;
+}
+
+header {
+	background-color: #969698;
+	width: 100%;
+	margin: auto;
+}
+
+.title {
+	width: 900px;
+	margin: auto;
+}
+
+
+.gnb {
+	color: #E6E8E7;
+	font-size: 120px;
+	text-align: center;
+	font-family: 'Cardo', serif;
+	margin: -10px;
+}
+
+.gol {
+	color: #A4C8D6;
+	font: helvetica;
+	letter-spacing: 5px;
+	text-align: center;
+	margin: auto auto 30px;
+}
+
+.line {
+	width: 900px;
+	height: 5px;
+	background-color: #E6E8E7;
+	margin: auto;
+}
+
+nav {
+	margin: auto;
+}
+
+li {
+	display: inline;
+	margin: auto 57px;
+	font-size: 18px;
+	letter-spacing: 3px;
+}
+
+a:link {
+	color: #E6E8E7;
+	text-decoration: none;
+}
+
+a:active {
+	color: #E6E8E7;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #E6E8E7;
+	text-decoration: none;
+}
+
+.cover {
+	width: 1000px;
+	margin: auto;
+}
+
+.card {
+	width: 1000px;
+	margin: auto;
+}
+
+.slogan {
+	color: #FFFFFF;
+	font-size: 30px;
+	letter-spacing: 5px;
+	width: 600px;
+	margin: -230px 195px;
+	text-align: center;
+	z-index: 100px;
+	text-shadow: 0px 5px 5px rgba(0,0,0,0.1),
+                 5px 5px 5px rgba(0,0,0,0.05),
+                 -5px 5px 5px rgba(0,0,0,0.05);
+}
+
+h2 {
+	font-family: 'Cardo', serif;
+}
+
+.homebody {
+	width: 950px;
+	margin: auto;
+}
+
+.kathytalk {
+	margin: 600px auto 200px;
+}
+
+.woman {
+	width: 450px;
+	height: 290px;
+	margin: -25px auto;
+	float: right;
+	display: inline-block;
+}
+
+.kathy {
+	width: 350px;
+	padding: auto 200px 50px;
+	font-size: 25px;
+}
+
+.k {
+	width: 300px;
+	margin: 20px 250px;
+	font-size: 25px;
+}
+
+.man {
+	width: 450px;
+	height: 270px;
+	margin: 100px auto 250px;
+}
+
+.willtalk {
+	margin: 100px 20px 20px;
+	float: right;
+	display: inline-block;
+}
+
+.will {
+	width: 420px;
+	padding: auto 200px 50px;
+	font-size: 25px;
+}
+
+.w {
+	width: 300px;
+	font-size: 25px;
+	display: inline-block;
+	float: right;
+	margin: 10px -190px;
+}
+
+.tower {
+	width: 500px;
+	right: 170px;
+	bottom: 250px;
+}
+
+p {
+	color: #E8E8EA;
+	font-family: 'Cardo', serif
+}
+
+h2 {
+	color: #E6E8E7;
+	margin: 80px 30px -50px;
+	width: 950px;
+}
+
+.history {
+	margin: auto;
+	font-size: 20px;
+
+}
+
+.about {
+	width: 400px;
+	margin: 150px 30px 100px;
+	font-size: 17px;
+}
+
+.tower {
+	width: 450px;
+	height: 290px;
+	margin: -240px 440px;
+	float: left;
+	display: inline-block;
+}
+
+.emp {
+	width: 950px;
+	margin: 150px 30px 100px;
+}
+
+.arthur {
+	width: 400px;
+	height: 260px;
+	margin: -40px auto;
+}
+
+.abta {
+	width: 420px;
+	margin: 60px 50px 20px;
+	float: right;
+	display: inline-block;
+	font-size: 15px;
+
+}
+
+.barney {
+	width: 400px;
+	height: 260px;
+	margin: 180px auto;
+}
+
+.b {
+	font-size: 50px;
+}
+
+.abtb {
+	width: 420px;
+	margin: 280px 50px 20px;
+	float: right;
+	display: inline-block;
+	font-size: 15px;
+}
+
+.marshall {
+	width: 400px;
+	height: 260px;
+	margin: -40px auto 100px;
+}
+
+.abtm {
+	width: 420px;
+	margin: 50px 50px 20px;
+	float: right;
+	display: inline-block;
+	font-size: 15px;
+}
+
+h3 {
+	color: #FFFFFF;
+}
+
+.blue {
+	width: 350px;
+	margin: 120px 35px;
+	display: inline-block;
+}
+
+.bluec {
+	width: 500px;
+	float: right;
+	margin: 100px auto;
+} 
+
+.yellow {
+	width: 350px;
+	margin: 120px 35px;
+	display: inline-block;
+}
+
+.yellowc {
+	width: 500px;
+	float: right;
+	margin: 100px -40px;
+}
+
+.yel {
+	width: 900px;
+	display: inline-block;
+}
+
+.red {
+	width: 350px;
+	margin: 120px 35px;
+	display: inline-block;
+}
+
+.redc {
+	width: 500px;
+	margin: -350px 450px 280px;
+}
+
+.formbody {
+	width: 200px 900px;
+	margin: auto;
+	padding: 0px 200px 200px;
+}
+
+.sign {
+	width: 900px;
+	margin: 100px auto -30px;
+}
+
+form {
+	width: 900px;
+	margin: 100px auto;
+}
+
+.final {
+	width: 850px;
+	margin: auto auto 70px;
+}
+
+.couple {
+	width: 440px;
+	margin: -20px auto;
+	float: right;
+	display: inline-block;
+}
+
+p.lquote {
+	width: 400px;
+	margin: 50px -20px 30px;
+	font-size: 20px;
+}
+
+p.jp {
+	width: 300px;
+	margin: auto 250px;
+}
+
+footer {
+	background-color: #969698;
+	padding: 90px;
+	letter-spacing: 4px;
+	font-size: 11px;
+	text-align: center;
+}
+
+.foot {
+	width: 950px;
+	margin: auto;
+}

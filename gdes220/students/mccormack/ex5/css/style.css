@@ -1,0 +1,145 @@
+
+
+
+body {
+		background-image: url("../images/swirl.png");
+		background-repeat: repeat;
+		padding:150px;
+		padding-top: 50px;
+}
+
+div {
+	width:700px;
+	margin: auto;
+}
+
+
+img {
+		border:5px dotted #b8ceff;
+		width:500px;
+		margin-left:95px;
+		margin-right:100px;
+}
+
+
+h1,h2,h3,h4,h5 {
+		font-family: "Century Gothic", sans-serif;
+		color: #4b95cc;
+}
+
+
+h1{
+		font-size: 300%;
+}
+
+
+
+#pagetitle {
+		width: 500px;
+		margin: 20px auto;
+		-webkit-box-sizing: border-box;
+		   -mox-box-sizing: border-box;
+		        box-sizing: border-box;
+}
+
+
+
+#main-title {
+		background-color: #b8ceff;
+		padding: 8px;
+		margin:2px auto;
+		text-align: center;
+}
+
+
+
+h2 {
+		font-size: 200%;
+}
+
+h3 {
+		color: black;
+}
+
+h3.descriptor {
+		font-size: 105%;
+		color: black;
+}
+
+
+
+section.time1 {
+		padding-left:80px;
+}
+
+
+
+p,td,th,li {
+		font-family: Georgia, serif;
+		font-size: 100%;
+}
+
+td {
+		width:225px;
+}
+
+ul {
+		width:450px;
+		list-style-position: inside;
+}
+
+ul b {
+		color: #4b95cc;
+}
+ol {
+		width:450px;
+		list-style-position: inside;
+}
+
+table {
+		width:450px;
+		margin-left:40px;
+}
+
+th,td {
+		padding: 3px 5px 5px 3px;
+}
+
+tr.even {
+		background-color: rgba(184,206,255,.5);
+}
+
+
+
+
+a:link {
+		color: #FF7C40;
+		text-decoration: none;
+}
+a:visited {
+		color: #4b95cc;
+		text-decoration: none;
+}
+a:hover {
+		color: #999985;
+		text-decoration: none;
+}
+a:active {
+		color: #cbcc4b;
+		text-decoration: none;
+}
+
+
+
+
+p.footer {
+		padding-top:5px;
+		color: #808080;
+		font-size:85%;
+		padding-bottom: 70px;
+		padding-left: 20px;
+}
+
+footer {
+		background: linear-gradient(rgba(255,0,0,0),rgba(184,206,255,.45));
+}

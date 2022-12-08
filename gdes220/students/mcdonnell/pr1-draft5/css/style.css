@@ -1,0 +1,326 @@
+@import 'h5bp/h5bp-head.css';
+@import 'h5bp/normalize.css';
+@import 'h5bp/h5bp-tail.css';
+
+/* 
+
+	Put typographic formatting in the typography.css file.
+	Page layout styles go in layout.css.
+
+	In production, do not use imports.
+	Instead, concatenante and minify files. 
+
+*/
+
+body {
+	background-color: #bec2c1;	
+}
+
+
+@font-face {
+	font-family: 'Mirador';
+	src: url('fonts/miradorbold.otf');
+
+}
+
+main {
+	width: 100%
+	margin: auto;
+}
+
+
+h1, h2 {
+	color: #f7f2dc;
+}
+
+h1 {
+	font-size: 80pt;
+	text-align: center;
+	font-family: 'Mirador', Georgia, serif;
+
+}
+
+h2 {
+	font-size: 40pt;
+	font-family: Futura, avenir;
+	text-align: center;
+	margin: auto;
+
+}
+
+
+
+p {
+	font-family: Avenir next, Avenir, sans-serif;
+	color: #f7f2dc;
+	font-size: 20pt;
+	margin: auto;
+	width: 800px;
+}
+
+
+footer {
+	color: #929594;
+}
+
+
+a {
+	color: #636464;
+}
+
+a:hover {
+	color: #f7d6eb;
+}
+
+a:visited {
+	color: #f7f2dc;
+}
+
+
+#introduction {
+	padding-bottom: 500px;
+	width: 800px;
+	margin: auto;
+
+}
+
+button {
+	padding: 10px;
+	font-family: avenir, serif;
+	margin-left: 300px;
+	background-color: #f7f2dc;
+	width: 150px;
+	border: none;
+}
+
+button:hover {
+	background-color: #f7d6eb;
+}
+
+
+button a, button a:hover, button a:visited{
+	text-decoration: none;
+	color: #000;
+}
+
+
+#secondintro {
+	padding-bottom: 400px;
+	width: 800px;
+	margin: auto;
+}
+
+#paintmyself {
+	position: relative;
+	left: 100px;
+	width: 400px;
+}
+
+#headless {
+	position: relative;
+	bottom: 50px;
+	left: 100px;
+	top: 40px;
+}
+
+blockquote {
+	font-size: 40pt;
+	text-align: center;
+	color: #636464;
+	font-family: futura, avenir, sans-serif;
+}
+
+Why does this not work? Do I have to make the blockquotes differentdivs. 
+
+
+
+
+
+
+
+#childhoodsection {
+	width: 800px;
+    text-align: left;
+    font-size: 15px;
+    margin: auto;
+
+}
+
+#bus-accident {
+	padding-top: 400px;
+	padding-bottom: 300px;
+	font-color: #f7f2dc;
+	width: 800px;
+	margin: auto;
+}
+
+#bustitle {
+	position: relative;
+	left: 80px;
+	width: 80%;
+	font-size: 15pt;
+	background-color: #000000;
+	font-family: avenir;
+	padding: 5px;
+}
+
+#fridacolumna {
+	position: relative;
+	width: 50%;
+	left: 50px;
+	top: 20px;
+}
+
+#busparapart1 {
+	position: relative;
+	width: 80%;
+	left: 80px;
+	top: 50px;
+	
+}
+
+#columna2 {
+	position: relative;
+	top: 100px;
+	right: 80px;
+}
+
+#busparapart2 {
+	position: relative;
+	width: 50%;
+	right: 250px;
+	padding-top: 10px;
+	text-align: left;
+
+}
+
+.busparagraph {
+	color: #f7f2dc;
+	font-size: 20pt;
+}
+
+.darkgreyquote {
+	color: #636464;
+	font-family: 'Mirador', Georgia, serif;
+	text-align: center;
+	width: 800px;
+	margin: auto;
+}
+
+#career {
+	margin: auto;
+	width: 800px;
+}
+
+
+
+#handsflower {
+	padding-bottom: 300px;
+	padding-top: 50px;
+	padding-left: 150px;
+	margin: auto;
+
+}
+
+#marriage {
+	margin: auto;
+	width: 800px;
+}
+
+
+#fridaydiego {
+	padding-bottom: 300px;
+	padding-top: 50px;
+	padding-left: 50px;
+	margin: auto;
+}
+
+#painterquote {
+	color: #636464;
+}
+
+.painterparagraph {
+	color: #f7f2dc;
+	font-size: 20pt;
+}
+
+#lateryears {
+	margin: auto;
+	width: 800px;
+}
+
+#frida-in-bed {
+	padding-left: 50px;
+	padding-top: 50px;
+	padding-bottom: 500px;
+}
+
+#posthumousrecog {
+	margin: auto;
+	width: 800px;
+}
+
+
+#pies {
+	padding-bottom: 50px;
+	padding-top: 50px;
+	padding-left: 0px;
+	margin: auto;
+	width: 800px;
+}
+
+#piesquote {
+	padding-bottom: 600px;
+	margin: auto;
+	width: 800px;
+
+}
+
+
+
+
+
+
+#finalfrida {
+	padding-bottom: 300px;
+	padding-top: 50px;
+	padding-left: 50px;
+	margin: auto;
+}
+
+
+#deathquote {
+	padding-bottom: 800px;
+}
+
+
+footer {
+	margin: auto;
+	width: 100%;
+	background-color: #929594;
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+
+}
+
+
+.footer-text {
+	color: #FFFFFF;
+	margin: auto;
+	width: 800px;
+	font-size: 10pt;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

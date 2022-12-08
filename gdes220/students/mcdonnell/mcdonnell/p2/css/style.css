@@ -1,0 +1,29 @@
+
+
+
+
+@font-face {
+	src: url(/p2/arvo/arvo);
+}
+
+
+
+
+body {
+	width: 800px;
+	margin: 0 auto;
+	background-color: #feeadb;
+}
+
+
+
+
+h1 {
+	color: #363636;
+}
+
+
+
+.hotel-name {
+	background-color: #bd1622;
+}

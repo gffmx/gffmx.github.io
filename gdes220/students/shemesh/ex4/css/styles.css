@@ -1,0 +1,39 @@
+body {
+	background: url(../images/restaurant_icons.png);
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color:#add8e6;
+	}
+	h1, h2, h3 { 
+		color:#800080;}
+		a:visited {
+			color:##800080
+		}
+		a:active {
+			color:#808080;
+		}
+		a:hover {
+			color:#c0c0c0;
+		}
+		a:link {
+			color:#ff00ff;
+		}
+		ol {
+			list-style-type: decimal;
+		}
+		ul {
+			list-style-type: circle;
+		}
+		table {
+			width:600px;
+			background-color:#FFFFFF
+			}
+			th, td {
+				padding: 15px;
+			}
+
+			#okay {
+				border: 5px solid purple;
+			}
+.maroon {
+	color: #000000;
+}
